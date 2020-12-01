@@ -28,6 +28,9 @@ export default {
           'https://fonts.googleapis.com/css2?family=Jost:wght@400;700&display=swap',
       },
     ],
+    script: [
+      { src: 'https://identity.netlify.com/v1/netlify-identity-widget.js' },
+    ],
   },
   /*
    ** Global CSS

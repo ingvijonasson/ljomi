@@ -6,7 +6,7 @@
         <Nuxt />
       </main>
     </div>
-    <site-footer class="flex-shrink-0" />
+    <site-footer class="flex-shrink-0 mt-12" />
   </div>
 </template>
 

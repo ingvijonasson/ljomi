@@ -15,7 +15,7 @@ collections:
     editor:
       preview: false
     fields:
+      - { label: 'Person', name: 'person', widget: 'string' }
       - { label: 'Title', name: 'title', widget: 'string' }
-      - { label: 'Publish Date', name: 'date', widget: 'datetime' }
-      - { label: 'Description', name: 'description', widget: 'string' }
+      - { label: 'Link', name: 'link', widget: 'link' }
       - { label: 'Body', name: 'body', widget: 'markdown' }

@@ -1,22 +1,20 @@
 <template>
-  <div>
-    <p class="text-xl font-bold mt-4">
-      Developing websites together with designers and agencies.
-    </p>
+  <section class="mt-16">
+    <h2 class="text-lg font-bold">Recommendations</h2>
 
-    <section class="mt-8">
-      <h2 class="text-xl">Recommendations</h2>
-      <article v-for="item in recommendations" :key="item.person" class="mt-6">
-        <h3 class="text-lg">
-          <a :href="item.link">{{ item.person }}</a>
-        </h3>
-        <h4>{{ item.title }}</h4>
-        <blockquote cite="https://www.linkedin.com/in/ingvijonasson/">
-          <nuxt-content :document="item" />
-        </blockquote>
-      </article>
-    </section>
-  </div>
+    <article v-for="item in recommendations" :key="item.person" class="mt-8">
+      <h3 class="text-lg">
+        <a :href="item.link">{{ item.person }}</a>
+      </h3>
+      <h4>{{ item.title }} - {{ item.organization }}</h4>
+      <blockquote
+        class="mt-2"
+        cite="https://www.linkedin.com/in/ingvijonasson/"
+      >
+        <nuxt-content :document="item" />
+      </blockquote>
+    </article>
+  </section>
 </template>
 
 <script>

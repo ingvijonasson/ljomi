@@ -5,12 +5,7 @@
  ** Default: https://github.com/tailwindcss/tailwindcss/blob/master/stubs/defaultConfig.stub.js
  */
 module.exports = {
-  theme: {
-    container: {
-      center: true,
-      padding: '1rem',
-    },
-  },
+  theme: {},
   variants: {},
   plugins: [],
   purge: {
@@ -23,6 +18,9 @@ module.exports = {
       'plugins/**/*.js',
       'nuxt.config.js',
     ],
+  },
+  corePlugins: {
+    container: false,
   },
   future: {
     purgeLayersByDefault: true,

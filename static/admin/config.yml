@@ -15,9 +15,7 @@ collections:
     editor:
       preview: false
     fields:
-      - { label: 'Person', name: 'person', widget: 'string' }
       - { label: 'Title', name: 'title', widget: 'string' }
-      - { label: 'Link', name: 'link', widget: 'link' }
       - { label: 'Body', name: 'body', widget: 'markdown' }
 
   - name: 'recommendations'
@@ -31,5 +29,5 @@ collections:
     fields:
       - { label: 'Person', name: 'person', widget: 'string' }
       - { label: 'Title', name: 'title', widget: 'string' }
-      - { label: 'Link', name: 'link', widget: 'link' }
+      - { label: 'Organization', name: 'organization', widget: 'string' }
       - { label: 'Body', name: 'body', widget: 'markdown' }

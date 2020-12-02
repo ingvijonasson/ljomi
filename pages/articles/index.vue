@@ -9,7 +9,7 @@
           :to="{ name: 'articles-slug', params: { slug: article.slug } }"
         >
           <h2>{{ article.title }}</h2>
-          <p>{{ article.description }}</p>
+          <p>{{ article.summary }}</p>
         </NuxtLink>
       </li>
     </ul>
@@ -20,7 +20,7 @@
 export default {
   async asyncData({ $content, params }) {
     const articles = await $content('articles', params.slug)
-      .only(['title', 'description', 'img', 'slug', 'author'])
+      .only(['title', 'summary', 'slug'])
       .sortBy('createdAt', 'asc')
       .fetch()
 

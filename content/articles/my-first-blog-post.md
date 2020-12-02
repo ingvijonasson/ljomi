@@ -1,6 +1,6 @@
 ---
 title: My first Blog Post
-description: Learning how to use @nuxt/content to create a blog
+summary: Learning how to use @nuxt/content to create a blog
 ---
 
 <div class="bg-blue-500 text-white p-4 mb-4">

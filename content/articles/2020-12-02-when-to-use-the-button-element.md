@@ -1,6 +1,8 @@
 ---
 title: When to use the button element?
+summary: Insert catchy summary here
 ---
+
 The short answer is always. Of course if it's an interactive piece of ui. Never use e.g. a span or a div or whatever element you might come up with. But you might want to use an `<a>\` element but do so only when you need an \`href`. If you don't it should be an button. That's why using the button element should be your default.
 
 ## Styling

@@ -16,6 +16,7 @@ collections:
       preview: false
     fields:
       - { label: 'Title', name: 'title', widget: 'string' }
+      - { label: 'Summary', name: 'summary', widget: 'string' }
       - { label: 'Body', name: 'body', widget: 'markdown' }
 
   - name: 'recommendations'

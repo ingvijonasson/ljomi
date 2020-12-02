@@ -38,11 +38,11 @@ export default {
 
 <style lang="postcss">
 h1 {
-  @apply text-2xl font-bold;
+  @apply text-xl font-bold;
 }
 
 h2 {
-  @apply text-xl font-bold mt-8;
+  @apply text-lg font-bold mt-8;
 }
 
 .icon.icon-link {

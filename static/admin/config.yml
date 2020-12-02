@@ -6,6 +6,20 @@ media_folder: static/img
 public_folder: /img
 
 collections:
+  - name: 'articles'
+    label: 'Articles'
+    folder: 'content/articles'
+    format: 'frontmatter'
+    create: true
+    slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
+    editor:
+      preview: false
+    fields:
+      - { label: 'Person', name: 'person', widget: 'string' }
+      - { label: 'Title', name: 'title', widget: 'string' }
+      - { label: 'Link', name: 'link', widget: 'link' }
+      - { label: 'Body', name: 'body', widget: 'markdown' }
+
   - name: 'recommendations'
     label: 'Recommendations'
     folder: 'content/recommendations'

@@ -1,6 +1,7 @@
 <template>
   <div>
-    <h1 class="text-3xl">all articles</h1>
+    <!-- TODO: add visually hidden to the headline -->
+    <h1 class="text-xl">Articles</h1>
     <ul class="mt-12">
       <li v-for="article of articles" :key="article.slug">
         <NuxtLink

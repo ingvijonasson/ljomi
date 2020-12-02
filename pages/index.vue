@@ -1,11 +1,11 @@
 <template>
   <div>
-    <p class="text-3xl mt-12">
+    <p class="text-xl font-bold mt-4">
       Developing websites together with designers and agencies.
     </p>
 
     <section class="mt-8">
-      <h2 class="text-2xl">Recommendations</h2>
+      <h2 class="text-xl">Recommendations</h2>
       <article v-for="item in recommendations" :key="item.person" class="mt-6">
         <h3 class="text-lg">
           <a :href="item.link">{{ item.person }}</a>

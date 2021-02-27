@@ -3,9 +3,7 @@
     <h2 class="text-lg font-bold">Recommendations</h2>
 
     <article v-for="item in recommendations" :key="item.person" class="mt-8">
-      <h3 class="text-lg">
-        <a :href="item.link">{{ item.person }}</a>
-      </h3>
+      <h3 class="text-lg">{{ item.person }}</h3>
       <h4>{{ item.title }} - {{ item.organization }}</h4>
       <blockquote
         class="mt-2"
@@ -31,3 +29,17 @@ export default {
   },
 }
 </script>
+
+<style scoped>
+article {
+  margin-top: 2rem;
+}
+
+h3 {
+  margin-bottom: 0.15rem;
+}
+
+h4 {
+  margin-top: 0;
+}
+</style>

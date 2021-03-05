@@ -32,11 +32,11 @@ export default {
   --color-red: #ff5470;
 
   /* --color-base: #f8dad0; */
-  --color-base: #ffe9cf;
+  --color-base: #fce5e5;
   --base-color: var(--color-dark);
   --base-background: var(--color-white);
 
-  font-size: 16px;
+  font-size: 20px;
   color: var(--base-color);
   background-color: var(--base-background);
 }
@@ -59,7 +59,7 @@ a {
 }
 
 p {
-  max-width: 44em;
+  max-width: 34em;
 }
 
 blockquote {
@@ -70,8 +70,8 @@ blockquote {
   margin-left: auto;
   margin-right: auto;
   max-width: 1020px;
-  padding-left: 1.5rem;
-  padding-right: 1.5rem;
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
 }
 
 .site-master {
@@ -85,7 +85,7 @@ blockquote {
 }
 
 .site-main {
-  margin-top: 4rem;
+  margin-top: 6rem;
 }
 
 .site-footer {
@@ -94,18 +94,7 @@ blockquote {
 }
 
 .nuxt-content-highlight {
-  position: relative;
-}
-
-.nuxt-content-highlight .filename {
-  position: absolute;
-  right: 0;
-
-  /* text-gray-600
-  font-light
-  z-10
-  mr-2
-  mt-1
-  text-sm; */
+  margin-top: 2rem;
+  margin-bottom: 2rem;
 }
 </style>

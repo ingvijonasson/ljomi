@@ -2,7 +2,9 @@
   <header>
     <div class="container">
       <div class="site-header__layout">
-        <nuxt-link class="logo" to="/">ljómi</nuxt-link>
+        <nuxt-link to="/" aria-label="Navigate to frontpage">
+          <ljomi-logo />
+        </nuxt-link>
         <nuxt-link to="/articles">articles </nuxt-link>
       </div>
       <p class="site-header__intro">
@@ -12,6 +14,15 @@
     </div>
   </header>
 </template>
+
+<script>
+import LjomiLogo from '@/components/LjomiLogo.vue'
+export default {
+  components: {
+    LjomiLogo,
+  },
+}
+</script>
 
 <style scoped>
 header {
@@ -26,8 +37,8 @@ header {
 }
 
 .site-header__intro {
-  padding: 12rem 0;
-  font-size: 2.75rem;
+  padding: 10rem 0;
+  font-size: 2.25rem;
   font-weight: 600;
 }
 
@@ -39,5 +50,6 @@ header {
 
 a {
   font-weight: 600;
+  text-decoration: none;
 }
 </style>

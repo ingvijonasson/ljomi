@@ -1,15 +1,18 @@
 <template>
   <header>
-    <div class="container">
+    <div class="container container--large">
       <div class="site-header__layout">
         <nuxt-link to="/" aria-label="Navigate to frontpage">
           <ljomi-logo />
         </nuxt-link>
         <nuxt-link to="/articles">articles </nuxt-link>
       </div>
+    </div>
+
+    <div class="container container--small">
       <p class="site-header__intro">
         I’m Ingvi. I develop websites together with designers and agencies. I
-        create websites that are for everyone.
+        create quality frontend code that works for people.
       </p>
     </div>
   </header>

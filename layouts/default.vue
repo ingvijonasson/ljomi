@@ -25,18 +25,15 @@ export default {
 <style>
 :root {
   --color-white: #fffffe;
-  --color-black: #00214d;
-  --color-dark: #001c44;
-  --color-lime: #00ebc7;
-  --color-yellow: #fde24f;
-  --color-red: #ff5470;
-
-  /* --color-base: #f8dad0; */
-  --color-base: #fce5e5;
-  --base-color: var(--color-dark);
+  --color-black: #151717;
+  --color-pink: #fce5e5;
+  --color-blue: #e4f4fc;
+  --color-green: #e4f4fc;
+  --color-base: var(--color-pink);
+  --base-color: var(--color-black);
   --base-background: var(--color-white);
 
-  font-size: 20px;
+  font-size: 18px;
   color: var(--base-color);
   background-color: var(--base-background);
 }
@@ -55,7 +52,7 @@ body {
 }
 
 a {
-  color: var(--color-dark);
+  color: var(--color-black);
 }
 
 p {
@@ -72,6 +69,14 @@ blockquote {
   max-width: 1020px;
   padding-left: 2.5rem;
   padding-right: 2.5rem;
+}
+
+.container--large {
+  max-width: 1400px;
+}
+
+.container--small {
+  max-width: 800px;
 }
 
 .site-master {

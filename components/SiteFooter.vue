@@ -36,7 +36,7 @@
       class="site-footer__deco"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
-      viewBox="0 0 609 458"
+      viewBox="0 0 709 388"
     >
       <ellipse
         cx="515.267"

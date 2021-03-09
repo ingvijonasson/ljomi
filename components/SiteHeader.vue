@@ -7,12 +7,10 @@
         </nuxt-link>
         <nuxt-link to="/articles">articles </nuxt-link>
       </div>
-    </div>
 
-    <div class="container container--small">
       <p class="site-header__intro">
-        I’m Ingvi. I develop websites together with designers and agencies. I
-        create quality frontend code that works for people.
+        I’m Ingvi. I develop websites together with designers. I create quality
+        frontend code that works for people.
       </p>
     </div>
   </header>
@@ -20,6 +18,7 @@
 
 <script>
 import LjomiLogo from '@/components/LjomiLogo.vue'
+
 export default {
   components: {
     LjomiLogo,
@@ -29,7 +28,7 @@ export default {
 
 <style scoped>
 header {
-  padding: 3.5rem 0;
+  padding: clamp(1rem, 1.5rem + 1.5vw, 3rem) 0;
   background-color: var(--color-base);
 }
 
@@ -40,9 +39,15 @@ header {
 }
 
 .site-header__intro {
-  padding: 10rem 0;
-  font-size: 2.25rem;
+  --fluid-spacing: calc(1.5rem + 8vw);
+
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: var(--fluid-spacing);
+  padding-bottom: var(--fluid-spacing);
+  font-size: 1.8rem;
   font-weight: 600;
+  max-width: 20em;
 }
 
 .logo {

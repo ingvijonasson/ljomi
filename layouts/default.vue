@@ -33,9 +33,12 @@ export default {
   --base-color: var(--color-black);
   --base-background: var(--color-white);
 
-  font-size: 18px;
   color: var(--base-color);
   background-color: var(--base-background);
+}
+
+html {
+  font-size: min(max(1rem, 4vw), 22px);
 }
 
 html,

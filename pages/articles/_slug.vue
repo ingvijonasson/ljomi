@@ -1,25 +1,35 @@
 <template>
-  <article>
-    <h1>{{ article.title }}</h1>
-    <small class="font-bold">
-      Article last updated: {{ formatDate(article.updatedAt) }}
-    </small>
-    <nav>
-      <ul class="list-disc p-4">
-        <li
-          v-for="link of article.toc"
-          :key="link.id"
-          :class="{ 'py-1': link.depth === 2, 'ml-2 pb-2': link.depth === 3 }"
-        >
-          <NuxtLink :to="`#${link.id}`" class="underline">
-            {{ link.text }}
-          </NuxtLink>
-        </li>
-      </ul>
-    </nav>
+  <section>
+    <page-title>
+      <h1>{{ article.title }}</h1>
+      <small> Article last updated: {{ formatDate(article.updatedAt) }}</small>
+    </page-title>
 
-    <nuxt-content :document="article" />
-  </article>
+    <div class="section-large">
+      <div class="container">
+        <article>
+          <!-- <nav>
+            <ul class="list-disc p-4">
+              <li
+                v-for="link of article.toc"
+                :key="link.id"
+                :class="{
+                  'py-1': link.depth === 2,
+                  'ml-2 pb-2': link.depth === 3,
+                }"
+              >
+                <NuxtLink :to="`#${link.id}`" class="underline">
+                  {{ link.text }}
+                </NuxtLink>
+              </li>
+            </ul>
+          </nav> -->
+
+          <nuxt-content :document="article" />
+        </article>
+      </div>
+    </div>
+  </section>
 </template>
 
 <script>
@@ -38,15 +48,7 @@ export default {
 }
 </script>
 
-<style lang="postcss">
-h1 {
-  /* @apply text-xl font-bold; */
-}
-
-h2 {
-  /* @apply text-lg font-bold mt-8; */
-}
-
+<style>
 .icon.icon-link {
   background-image: url('~assets/icons/hashtag.svg');
   display: inline-block;

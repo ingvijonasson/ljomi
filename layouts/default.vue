@@ -2,7 +2,7 @@
   <div class="site-master">
     <div class="site-content">
       <site-header />
-      <main class="site-main container">
+      <main class="site-main">
         <Nuxt />
       </main>
     </div>
@@ -29,11 +29,10 @@ export default {
   --color-pink: #fce5e5;
   --color-blue: #e4f4fc;
   --color-green: #e4f4fc;
-  --color-base: var(--color-pink);
-  --base-color: var(--color-black);
+  --color-base: #fcf4e4;
   --base-background: var(--color-white);
 
-  color: var(--base-color);
+  color: var(--color-black);
   background-color: var(--base-background);
 }
 
@@ -51,7 +50,12 @@ body {
   flex-direction: column;
   font-family: 'Jost', sans-serif;
   font-weight: 400;
+  line-height: 1.5;
   margin: 0;
+}
+
+h1 {
+  line-height: 1.2;
 }
 
 a {
@@ -82,6 +86,10 @@ blockquote {
   max-width: 800px;
 }
 
+.section-large {
+  padding-top: 6rem;
+}
+
 .site-master {
   display: flex;
   flex-direction: column;
@@ -90,10 +98,6 @@ blockquote {
 
 .site-content {
   flex: 1 0 auto;
-}
-
-.site-main {
-  margin-top: 6rem;
 }
 
 .site-footer {

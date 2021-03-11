@@ -1,23 +1,25 @@
 <template>
-  <section>
-    <h2 class="text-lg font-bold">Recommendations</h2>
+  <div>
+    <page-title is-large>
+      <p>
+        I’m Ingvi. I develop websites together with designers. I create quality
+        frontend code that works for people.
+      </p>
+    </page-title>
 
-    <article
-      v-for="item in recommendations"
-      :key="item.person"
-      class="recommendation"
-    >
-      <h3 class="text-lg">{{ item.person }}</h3>
-      <h4>{{ item.title }} - {{ item.organization }}</h4>
-      <blockquote cite="https://www.linkedin.com/in/ingvijonasson/">
-        <nuxt-content :document="item" />
-      </blockquote>
-    </article>
-  </section>
+    <section-recommendations :recommendations="recommendations" />
+  </div>
 </template>
 
 <script>
+import SectionRecommendations from '@/components/SectionRecommendations.vue'
+import PageTitle from '@/components/PageTitle.vue'
+
 export default {
+  components: {
+    PageTitle,
+    SectionRecommendations,
+  },
   async asyncData({ $content, params }) {
     const recommendations = await $content(
       'recommendations',
@@ -30,22 +32,3 @@ export default {
   },
 }
 </script>
-
-<style>
-.recommendation {
-  margin-top: 2rem;
-}
-
-.recommendation h3 {
-  margin-bottom: 0.15rem;
-}
-
-.recommendation h4 {
-  margin: 0 0 0.5rem;
-}
-
-.recommendation p,
-.recommendation blockquote {
-  margin-top: 0;
-}
-</style>

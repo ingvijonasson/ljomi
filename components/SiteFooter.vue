@@ -32,7 +32,7 @@
         <div>© 2021 ljomi</div>
       </div>
     </div>
-    <svg
+    <!-- <svg
       class="site-footer__deco"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
@@ -43,10 +43,10 @@
         cy="516.267"
         rx="515.267"
         ry="516.267"
-        fill="#E4F4FC"
+        fill="var(--color-pink)"
         fill-opacity=".8"
       />
-    </svg>
+    </svg> -->
   </footer>
 </template>
 
@@ -62,18 +62,18 @@ footer {
   margin-top: 3rem;
   padding: 4rem 4rem;
   display: grid;
-  max-width: 34em;
+  max-width: 28em;
   background-color: var(--footer-color-background);
   color: var(--footer-color);
 }
 
-.site-footer__deco {
+/* .site-footer__deco {
   position: absolute;
   z-index: -1;
   bottom: 0;
   right: 0;
   width: calc(400px + 25vw);
-}
+} */
 
 h3 {
   margin-top: 0;
@@ -86,7 +86,7 @@ h3 {
   margin-top: 12rem;
   margin-bottom: calc(6rem + 10vw);
   font-size: 0.875rem;
-  border-top: 4px solid var(--color-pink);
+  border-top: 4px solid var(--color-base);
 }
 
 .site-footer__follow {

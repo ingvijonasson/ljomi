@@ -87,7 +87,8 @@ blockquote {
 }
 
 .section-large {
-  padding-top: 6rem;
+  padding-top: calc(2rem + 3vw);
+  padding-bottom: calc(2rem + 3vw);
 }
 
 .site-master {

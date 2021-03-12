@@ -2,7 +2,7 @@
   <footer>
     <div class="container">
       <div class="site-footer__inner">
-        <div>
+        <div class="site-footer__column">
           <h3>Connect</h3>
           <ul>
             <li>Ingvi Jonasson</li>
@@ -10,7 +10,7 @@
             <li><a href="mailto:ingvi@ljomi.ch">ingvi@ljomi.ch </a></li>
           </ul>
         </div>
-        <div class="site-footer__follow">
+        <div class="site-footer__column">
           <h3>Follow</h3>
           <ul>
             <li>
@@ -58,39 +58,10 @@ footer {
   position: relative;
 }
 
-.site-footer__inner {
-  margin-top: 3rem;
-  padding: 4rem 4rem;
-  display: grid;
-  max-width: 28em;
-  background-color: var(--footer-color-background);
-  color: var(--footer-color);
-}
-
-/* .site-footer__deco {
-  position: absolute;
-  z-index: -1;
-  bottom: 0;
-  right: 0;
-  width: calc(400px + 25vw);
-} */
-
 h3 {
   margin-top: 0;
   margin-bottom: 0.5em;
   font-size: 1rem;
-}
-
-.site-footer__rest {
-  padding-top: 0.5rem;
-  margin-top: 12rem;
-  margin-bottom: calc(6rem + 10vw);
-  font-size: 0.875rem;
-  border-top: 4px solid var(--color-base);
-}
-
-.site-footer__follow {
-  margin-top: 1.5rem;
 }
 
 ul {
@@ -104,13 +75,33 @@ a {
   color: var(--footer-color);
 }
 
-@media only screen and (min-width: 600px) {
-  .site-footer__inner {
-    grid-template-columns: repeat(2, 1fr);
-  }
-
-  .site-footer__follow {
-    margin-top: 0;
-  }
+.site-footer__inner {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-gap: 1rem;
+  padding: calc(3rem + 2vw);
+  padding-bottom: calc(1.5rem + 2vw);
+  max-width: 28em;
+  background-color: var(--footer-color-background);
+  color: var(--footer-color);
 }
+.site-footer__rest {
+  padding-top: 0.5rem;
+  margin-top: calc(1rem + 3vw);
+  margin-bottom: calc(3rem + 3vw);
+  font-size: 0.875rem;
+  border-top: 4px solid var(--color-base);
+}
+
+.site-footer__column {
+  margin-bottom: 1.5rem;
+}
+
+/* .site-footer__deco {
+  position: absolute;
+  z-index: -1;
+  bottom: 0;
+  right: 0;
+  width: calc(400px + 25vw);
+} */
 </style>

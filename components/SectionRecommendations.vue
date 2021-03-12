@@ -29,9 +29,9 @@ export default {
 }
 </script>
 
-<style scoped>
+<style>
 .recommendation {
-  margin-top: 2rem;
+  margin-top: calc(1rem + 3vw);
 }
 
 .recommendation h3 {
@@ -39,7 +39,7 @@ export default {
 }
 
 .recommendation h4 {
-  margin: 0 0 0.5rem;
+  margin: 0 0 0.25rem;
 }
 
 .recommendation p,

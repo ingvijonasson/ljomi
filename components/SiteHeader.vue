@@ -5,7 +5,7 @@
         <nuxt-link to="/" aria-label="Navigate to frontpage">
           <ljomi-logo />
         </nuxt-link>
-        <nuxt-link to="/articles">articles </nuxt-link>
+        <!-- <nuxt-link to="/articles">articles </nuxt-link> -->
       </div>
     </div>
   </header>
@@ -39,8 +39,8 @@ header {
   text-decoration: none;
 }
 
-a {
+/* a {
   font-weight: 600;
   text-decoration: none;
-}
+} */
 </style>

@@ -30,6 +30,12 @@ export default {
     ],
     script: [
       { src: 'https://identity.netlify.com/v1/netlify-identity-widget.js' },
+      {
+        defer: true,
+        async: true,
+        'data-domain': 'ljomi.ch',
+        src: 'https://plausible.io/js/plausible.js',
+      },
     ],
   },
   /*

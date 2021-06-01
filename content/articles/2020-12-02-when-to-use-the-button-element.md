@@ -2,6 +2,7 @@
 title: How I organize and use buttons
 summary: "An accessible aproach to styling and using buttons "
 ---
+
 I use buttons for everything that needs to interactive. If I want to open a modal, open a row in an accordion or show a menu for mobile. 
 
 I never use a span or a div but sometimes my buttons turn out to become an link but do so only when I need an location and therefore the `href` attribute. If you don't it should be an button. That's why using the button element should be your default.

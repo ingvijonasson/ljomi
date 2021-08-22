@@ -55,6 +55,7 @@ footer {
   --footer-color: var(--color-black);
   --footer-color-background: var(--color-base);
 
+  margin-top: 5rem;
   position: relative;
 }
 
@@ -73,6 +74,7 @@ ul {
 
 a {
   color: var(--footer-color);
+  text-decoration: none;
 }
 
 .site-footer__inner {

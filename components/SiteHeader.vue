@@ -24,7 +24,7 @@ export default {
 <style scoped>
 header {
   padding: clamp(1rem, 1.5rem + 1.5vw, 3rem) 0;
-  background-color: var(--color-pink);
+  background-color: var(--color-base);
 }
 
 .site-header__layout {
@@ -39,8 +39,8 @@ header {
   text-decoration: none;
 }
 
-/* a {
-  font-weight: 600;
+nav a {
   text-decoration: none;
-} */
+  font-weight: 600;
+}
 </style>

@@ -24,12 +24,14 @@ export default {
 
 <style>
 :root {
-  --color-white: #fffffe;
-  --color-black: #151717;
-  --color-pink: #fce5e5;
-  --color-blue: #e4f4fc;
-  --color-green: #e4f4fc;
-  --color-base: #fcf4e4;
+  --color-white: hsl(60, 100%, 100%);
+  --color-black: hsl(180, 6%, 17%);
+  --saturation: 75%;
+  --lightness: 95%;
+  --color-pink: hsl(0, var(--saturation), var(--lightness));
+  --color-blue: hsl(200, var(--saturation), var(--lightness));
+  --color-green: hsl(160, var(--saturation), var(--lightness));
+  --color-base: hsl(40, var(--saturation), var(--lightness));
   --base-background: var(--color-white);
 
   color: var(--color-black);
@@ -50,12 +52,28 @@ body {
   flex-direction: column;
   font-family: 'Jost', sans-serif;
   font-weight: 400;
-  line-height: 1.5;
+  line-height: 1.75;
   margin: 0;
 }
 
-h1 {
-  line-height: 1.2;
+h1,
+.text-h1 {
+  font-size: 1.8rem;
+  line-height: 1.4;
+  font-weight: 600;
+  max-width: none;
+}
+
+h2,
+.text-h2 {
+  line-height: 1.4;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  margin-top: 2.5em;
 }
 
 a {
@@ -70,10 +88,15 @@ blockquote {
   margin-left: 0;
 }
 
+small {
+  font-size: 0.85rem;
+  font-weight: bold;
+}
+
 .container {
   margin-left: auto;
   margin-right: auto;
-  max-width: 1020px;
+  max-width: 800px;
   padding-left: 2.5rem;
   padding-right: 2.5rem;
 }
@@ -82,12 +105,13 @@ blockquote {
   max-width: 1400px;
 }
 
-.container--small {
-  max-width: 800px;
+.section {
+  padding-top: calc(1rem + 1vw);
+  padding-bottom: calc(1rem + 1vw);
 }
 
 .section-large {
-  padding-top: calc(2rem + 3vw);
+  padding-top: calc(1rem + 1vw);
   padding-bottom: calc(2rem + 3vw);
 }
 
@@ -103,7 +127,6 @@ blockquote {
 
 .site-footer {
   flex-shrink: 0;
-  margin-top: 3rem;
 }
 
 .nuxt-content-highlight {

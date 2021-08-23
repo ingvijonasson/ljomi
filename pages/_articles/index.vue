@@ -13,6 +13,9 @@
               :to="{ name: 'articles-slug', params: { slug: article.slug } }"
             >
               <h2>{{ article.title }}</h2>
+              <small>
+                Last updated on the {{ formatDate(article.updatedAt) }}</small
+              >
               <p>{{ article.summary }}</p>
             </NuxtLink>
           </li>
@@ -26,13 +29,19 @@
 export default {
   async asyncData({ $content, params }) {
     const articles = await $content('articles', params.slug)
-      .only(['title', 'summary', 'slug'])
+      .only(['title', 'summary', 'slug', 'updatedAt'])
       .sortBy('createdAt', 'asc')
       .fetch()
 
     return {
       articles,
     }
+  },
+  methods: {
+    formatDate(date) {
+      const options = { year: 'numeric', month: 'short', day: 'numeric' }
+      return new Date(date).toLocaleDateString('en', options)
+    },
   },
 }
 </script>
@@ -42,6 +51,14 @@ ul {
   list-style: none;
   padding: 0;
   margin: 0;
+}
+
+h2 {
+  margin-bottom: 0;
+}
+
+p {
+  margin-top: 0;
 }
 
 a {

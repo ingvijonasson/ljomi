@@ -1,5 +1,7 @@
 # ljomi
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/0a714d57-311a-41e7-8965-5360887e7224/deploy-status)](https://app.netlify.com/sites/goofy-khorana-3e28fa/deploys)
+
 ## Build Setup
 
 ```bash

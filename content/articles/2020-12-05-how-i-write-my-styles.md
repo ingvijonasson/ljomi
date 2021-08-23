@@ -1,6 +1,7 @@
 ---
 title: How I write my styles
 summary: draft
+draft: true
 ---
 Here is a small take on how I write my css. This article does not consider too much on the fact that you might be using a javascript framework such as vue and therefore might not be a best practise for that scenario
 

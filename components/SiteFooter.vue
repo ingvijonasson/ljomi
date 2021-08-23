@@ -32,21 +32,6 @@
         <div>© 2021 ljomi</div>
       </div>
     </div>
-    <!-- <svg
-      class="site-footer__deco"
-      fill="none"
-      xmlns="http://www.w3.org/2000/svg"
-      viewBox="0 0 709 388"
-    >
-      <ellipse
-        cx="515.267"
-        cy="516.267"
-        rx="515.267"
-        ry="516.267"
-        fill="var(--color-pink)"
-        fill-opacity=".8"
-      />
-    </svg> -->
   </footer>
 </template>
 
@@ -55,6 +40,7 @@ footer {
   --footer-color: var(--color-black);
   --footer-color-background: var(--color-base);
 
+  margin-top: 5rem;
   position: relative;
 }
 
@@ -73,6 +59,7 @@ ul {
 
 a {
   color: var(--footer-color);
+  text-decoration: none;
 }
 
 .site-footer__inner {
@@ -96,12 +83,4 @@ a {
 .site-footer__column {
   margin-bottom: 1.5rem;
 }
-
-/* .site-footer__deco {
-  position: absolute;
-  z-index: -1;
-  bottom: 0;
-  right: 0;
-  width: calc(400px + 25vw);
-} */
 </style>

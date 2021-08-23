@@ -2,10 +2,10 @@
   <section>
     <page-title>
       <h1>{{ article.title }}</h1>
-      <small> Article last updated: {{ formatDate(article.updatedAt) }}</small>
+      <small> Last updated on the {{ formatDate(article.updatedAt) }}</small>
     </page-title>
 
-    <div class="section-large">
+    <div class="section">
       <div class="container">
         <article>
           <!-- <nav>
@@ -49,6 +49,10 @@ export default {
 </script>
 
 <style>
+h1 {
+  margin-bottom: 0;
+}
+
 .icon.icon-link {
   background-image: url('~assets/icons/hashtag.svg');
   display: inline-block;

@@ -9,14 +9,16 @@ All the projects can have the following features
 - Accessibility
 - PWA support
 - Form and form validation
+- Creating emails
 - Search feature
 - Connect to a Rest API, GraphQL or any database
 - User authentication with login, register and password reset
 - Multiple languages support
 - Unit testing
 
-## To do's
-- Email yourself open todos
+## Most basic ideas
+- To do's
+- CRM - or customer relationship management 
 
 ## Bookmarks
 - Browser tab bookmarking tool

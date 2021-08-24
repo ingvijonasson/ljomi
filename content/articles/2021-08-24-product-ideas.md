@@ -10,7 +10,7 @@ All the projects can have the following features
 - PWA support
 - Form and form validation
 - Creating emails
-- Search feature
+- A search feature
 - Connect to a Rest API, GraphQL or any database
 - User authentication with login, register and password reset
 - Multiple languages support
@@ -18,7 +18,8 @@ All the projects can have the following features
 
 ## Most basic ideas
 - To do's
-- CRM - or customer relationship management 
+- CRM - or customer relationship management
+- Books list or a list of books read
 
 ## Bookmarks
 - Browser tab bookmarking tool

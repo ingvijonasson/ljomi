@@ -1,5 +1,5 @@
 ---
-title: Drafts in NetlifyCMS
+title: Setup draft mode in NetlifyCMS
 summary: How to create post drafts in NetlifyCMS and hide them from your app
 draft: true
 ---

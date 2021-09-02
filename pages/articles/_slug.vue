@@ -45,6 +45,18 @@ export default {
       return new Date(date).toLocaleDateString('en', options)
     },
   },
+  head() {
+    return {
+      title: `${this.article.title}  — ljomi`,
+      meta: [
+        {
+          hid: 'description',
+          name: 'description',
+          content: this.article.summary,
+        },
+      ],
+    }
+  },
 }
 </script>
 

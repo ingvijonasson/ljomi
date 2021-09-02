@@ -19,6 +19,19 @@ export default {
     SiteHeader,
     SiteFooter,
   },
+  head() {
+    return {
+      title: 'ljomi  — Ingvi Jonasson — frontend developer',
+      meta: [
+        {
+          hid: 'description',
+          name: 'description',
+          content:
+            'I develop websites together with designers. I create quality frontend code that works for people.',
+        },
+      ],
+    }
+  },
 }
 </script>
 

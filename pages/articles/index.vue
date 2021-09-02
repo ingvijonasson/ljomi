@@ -42,6 +42,18 @@ export default {
       return new Date(date).toLocaleDateString('en', options)
     },
   },
+  head() {
+    return {
+      title: 'Articles',
+      meta: [
+        {
+          hid: 'description',
+          name: 'description',
+          content: 'Thoughts on web and life',
+        },
+      ],
+    }
+  },
 }
 </script>
 

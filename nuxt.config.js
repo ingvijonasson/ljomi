@@ -64,11 +64,7 @@ export default {
   /*
    ** Nuxt.js modules
    */
-  modules: [
-    '@nuxtjs/pwa',
-    // Doc: https://github.com/nuxt/content
-    '@nuxt/content',
-  ],
+  modules: ['@nuxtjs/pwa', '@nuxt/content'],
   /*
    ** Content module configuration
    ** See https://content.nuxtjs.org/configuration
@@ -76,7 +72,7 @@ export default {
   content: {
     markdown: {
       prism: {
-        theme: 'prism-themes/themes/prism-synthwave84.css',
+        theme: 'prism-themes/themes/prism-nord.css',
       },
     },
   },

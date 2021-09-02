@@ -1,15 +1,16 @@
 ---
 title: How I organize and use buttons
-summary: "An accessible aproach to styling and using buttons"
+summary: 'An accessible aproach to styling and using buttons'
 draft: true
 ---
 
-I use buttons for everything that needs to interactive. If I want to open a modal, open a row in an accordion or show a menu for mobile. 
+I use buttons for everything that needs to interactive. If I want to open a modal, open a row in an accordion or show a menu for mobile.
 
 I never use a span or a div but sometimes my buttons turn out to become an link but do so only when I need an location and therefore the `href` attribute. If you don't it should be an button. That's why using the button element should be your default.
 
 ## Styling
-A button has some default browser styling that vary accross browsers and I assume that's the main reason why a developer might turn himself to another element instead of styling the default button. 
+
+A button has some default browser styling that vary accross browsers and I assume that's the main reason why a developer might turn himself to another element instead of styling the default button.
 
 For that reason I always keep a `.button-reset` which will reset all the styling and make the button look like a inline text.
 
@@ -36,7 +37,7 @@ For that reason I always keep a `.button-reset` which will reset all the styling
 }
 ```
 
-I do not intend to go through each property here but diverse browsers user agents treat buttons differently and here we have normalized these styles. 
+I do not intend to go through each property here but diverse browsers user agents treat buttons differently and here we have normalized these styles.
 
 I am now ready to create my button and button modifiers e.g. a primary button or a small button. Basically based on every project needs of course. This might look like this.
 
@@ -73,8 +74,8 @@ This works fine and now when I want to do something a bit different e.g. create 
 <button class="button-menu" aria-label="Toggle Navigation">
   <svg>...</svg>
 </button>
-
 ```
+
 ```scss
 .button-mobile-open {
   @extend %button-reset;
@@ -95,4 +96,5 @@ One last thing I might add to my `button-reset` class is a custom focus state. F
 ```
 
 ## Conclusion
-Using buttons has massive benefits over all other elements. You can navigate with your keyboard. 
+
+Using buttons has massive benefits over all other elements. You can navigate with your keyboard.

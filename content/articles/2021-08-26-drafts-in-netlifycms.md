@@ -5,9 +5,9 @@ draft: true
 published: true
 ---
 
-You can only publish pages and posts in NetlifyCMS and you can not really create drafts because your content goes into one directory in your git repository. A simple way to manage this is to setup a boolean field and query based on the boolean value.
+You can publish pages and posts in NetlifyCMS but you can not really create drafts.  Your content goes into one directory in your git repository and is by default available. A way to manage this is to setup a boolean field for your content and then query your content based on the boolean value.
 
-First create a `published` boolean property and set it to `false` as default.
+First create a `published` property and set it to `false` as default. This way your posts will start as a draft and then you will set them to published when ready.
 
 ```yml
 collections:
@@ -16,10 +16,19 @@ collections:
     - { label: 'Published', name: 'published', widget: 'boolean', default: false }
 ```
 
-Secondly now update your query for posts so it will only return your posts where the draft is set to false.
+Secondly update your query for posts so it will only return your posts where the `published` is `true`. Your query could look like this.
 
-```
-code
+```js
+  async asyncData({ $content, params }) {
+    const articles = await $content('articles', params.slug)
+      .only(['title', 'published', 'slug', 'createdAt'])
+      .where({ published: true })
+      .fetch()
+
+    return {
+      articles,
+    }
+  },
 ```
 
-Note if your posts do not have a draft value set to true or to false they will also not show up. So if you set this up and then first all your post will not match your query until you set the draft to false.
+Now your previously created posts do not have a published method value set to either true or to false because the value does not excist these posts will also not show up. So you will have to update these as needed.

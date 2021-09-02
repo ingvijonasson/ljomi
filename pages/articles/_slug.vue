@@ -2,7 +2,7 @@
   <section>
     <page-title>
       <h1>{{ article.title }}</h1>
-      <small> Last updated on the {{ formatDate(article.updatedAt) }}</small>
+      <small>{{ formatDate(article.createdAt) }}</small>
     </page-title>
 
     <div class="section">

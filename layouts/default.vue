@@ -89,7 +89,7 @@ blockquote {
 }
 
 small {
-  font-size: 0.85rem;
+  font-size: 0.75rem;
   font-weight: bold;
 }
 

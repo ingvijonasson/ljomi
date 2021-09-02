@@ -1,6 +1,6 @@
 <template>
   <div>
-    <page-title is-large>
+    <page-title>
       <p class="text-h1">
         I’m Ingvi. I develop websites together with designers. I create quality
         frontend code that works for people.

@@ -2,7 +2,7 @@
 title: Javascript array methods rundown
 summary: 'Couple of useful array method in Javascript'
 slug: javascript-array-rundown
-draft: true
+published: false
 author: ingvi
 ---
 

@@ -1,10 +1,10 @@
 ---
 title: Exploring toogletips
 summary: Let's have a look at the web landscape on how toggletips are implemented
-draft: true
+published: false
 ---
 
-## What are Toogletips 
+## What are Toogletips
 
 So first let's discuss what are toggletips. These are the small containers that appear when e.g. a user clicks a button. This is very similar to tooltips but without being a tooltip.
 

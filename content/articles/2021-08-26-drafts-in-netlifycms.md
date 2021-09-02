@@ -1,15 +1,19 @@
 ---
 title: Setup draft mode in NetlifyCMS
-summary: How to create post drafts in NetlifyCMS and hide them from your app
+summary: How to control drafts in NetlifyCMS and hide them from your app
 draft: true
+published: true
 ---
 
 You can only publish pages and posts in NetlifyCMS and you can not really create drafts because your content goes into one directory in your git repository. A simple way to manage this is to setup a boolean field and query based on the boolean value.
 
-First create a `draft` property and set it to `true` as default.
+First create a `published` boolean property and set it to `false` as default.
 
-```
-code
+```yml
+collections:
+  fields:
+    - { label: 'Title', name: 'title', widget: 'string' }
+    - { label: 'Published', name: 'published', widget: 'boolean', default: false }
 ```
 
 Secondly now update your query for posts so it will only return your posts where the draft is set to false.

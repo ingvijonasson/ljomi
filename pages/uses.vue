@@ -28,12 +28,21 @@
 
         <h2>Saas</h2>
         <ul>
+          <li>ProtonMail</li>
           <li>
             Browserstack - for testing legacy browsers or better said ie11
           </li>
           <li>Harvest for time tracking and invoicing</li>
         </ul>
         <h2>Backup strategy</h2>
+        <ul>
+          <li>Time Machine - with an external hard drive</li>
+          <li>Backblaze - for cloud sync</li>
+          <li>
+            ProtonDrive - for backing up certain files. I use the drive usually
+            and backblaze and time machine are only for emergency situations.
+          </li>
+        </ul>
         <h2>Desk setup</h2>
         <h2>Audio</h2>
         <ul>

@@ -11,16 +11,16 @@
           </ul>
         </div>
         <div class="site-footer__column">
-          <h3>Follow</h3>
+          <h3>Elsewhere</h3>
           <ul>
             <li>
-              <a href="https://codepen.io/ingvi">codepen</a>
+              <a href="https://codepen.io/ingvoo">codepen</a>
             </li>
             <li>
-              <a href="https://github.com/ingvijonasson">github</a>
+              <a href="https://github.com/ingvoo">github</a>
             </li>
             <li>
-              <a href="https://ch.linkedin.com/in/ingvijonasson">linkedin</a>
+              <a href="https://ch.linkedin.com/in/ingvoo">linkedin</a>
             </li>
           </ul>
         </div>
@@ -29,7 +29,7 @@
 
     <div class="container">
       <div class="site-footer__rest">
-        <div>© 2021 ljomi</div>
+        <div>ljomi © 2020 — 2021</div>
       </div>
     </div>
   </footer>

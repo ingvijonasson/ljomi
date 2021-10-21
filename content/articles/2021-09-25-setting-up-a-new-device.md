@@ -3,6 +3,7 @@ title: Setting up a new device
 summary: How I automate (and manually) setup a new hardware
 published: false
 ---
+
 brewfile
 vscode backup
 

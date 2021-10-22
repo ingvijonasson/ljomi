@@ -24,7 +24,7 @@ collections:
           widget: 'boolean',
           default: false,
         }
-      - { label: 'Body', name: 'body', widget: 'markdown', modes: ['raw'] }
+      - { label: 'Body', name: 'body', widget: 'markdown' }
 
   - name: 'recommendations'
     label: 'Recommendations'

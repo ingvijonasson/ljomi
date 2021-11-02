@@ -7,10 +7,15 @@
       <div class="container">
         <h2>Editor and Terminal</h2>
         <ul>
-          <li>Visual studio code</li>
-          <li>Tower</li>
+          <li>
+            Firefox is my main browser since 2020. Previously I was using
+            Chrome.
+          </li>
           <li>iTerm</li>
+          <li>Visual studio code</li>
+          <li>Tower I use since 2016</li>
         </ul>
+
         <h2>Desktop apps</h2>
         <ul>
           <li>1Password</li>
@@ -28,12 +33,12 @@
 
         <h2>Saas</h2>
         <ul>
-          <li>ProtonMail</li>
           <li>
             Browserstack - for testing legacy browsers or better said ie11
           </li>
           <li>Harvest for time tracking and invoicing</li>
         </ul>
+
         <h2>Backup strategy</h2>
         <ul>
           <li>Time Machine - with an external hard drive</li>
@@ -42,13 +47,20 @@
             ProtonDrive - for backing up certain files. I use the drive usually
             and backblaze and time machine are only for emergency situations.
           </li>
+          <li>SpiderOak for backing up everything else</li>
         </ul>
-        <h2>Desk setup</h2>
+
+        <!-- <h2>Hardware - Desk setup</h2> -->
+
         <h2>Audio</h2>
         <ul>
           <li>Ableton live 11</li>
         </ul>
+
         <h2>Miscellaneous</h2>
+        <ul>
+          <li>Protonmail and ProtonVPN for secure emailing and browsing</li>
+        </ul>
       </div>
     </section>
   </div>

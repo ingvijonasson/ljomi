@@ -9,7 +9,7 @@ export default {
    ** See https://nuxtjs.org/api/configuration-head
    */
   head: {
-    title: process.env.npm_package_name || '',
+    title: 'ljomi  — Ingvi Jonasson — Frontend developer',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
@@ -19,6 +19,38 @@ export default {
         content:
           'I’m Ingvi. I develop websites together with designers. I create quality frontend code that works for people.',
       },
+
+      // Open Graph
+      {
+        property: 'og:title',
+        hid: 'og:title',
+        name: 'og:title',
+        content: 'ljomi  — Ingvi Jonasson — Frontend developer',
+      },
+      {
+        property: 'og:description',
+        hid: 'og:description',
+        name: 'og:description',
+        content:
+          'I’m Ingvi. I develop websites together with designers. I create quality frontend code that works for people.',
+      },
+      {
+        hid: 'og:type',
+        name: 'og:type',
+        content: 'website',
+      },
+      {
+        property: 'og:url',
+        hid: 'og:url',
+        name: 'og:url',
+        content: 'https://www.ljomi.ch',
+      },
+      // {
+      //   property: 'og:image',
+      //   hid: 'og:image',
+      //   name: 'og:image',
+      //   content: '',
+      // },
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },

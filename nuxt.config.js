@@ -16,7 +16,8 @@ export default {
       {
         hid: 'description',
         name: 'description',
-        content: process.env.npm_package_description || '',
+        content:
+          'I’m Ingvi. I develop websites together with designers. I create quality frontend code that works for people.',
       },
     ],
     link: [

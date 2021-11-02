@@ -1,10 +1,7 @@
 <template>
   <div>
     <page-title>
-      <p class="text-h1">
-        I’m Ingvi. I develop websites together with designers. I create quality
-        frontend code that works for people.
-      </p>
+      <p class="text-h1">{{ description }}</p>
     </page-title>
 
     <section-about />
@@ -31,6 +28,23 @@ export default {
 
     return {
       recommendations,
+    }
+  },
+  data() {
+    return {
+      description:
+        'I’m Ingvi. I develop websites together with designers. I create quality frontend code that works for people.',
+    }
+  },
+  head() {
+    return {
+      meta: [
+        {
+          hid: 'description',
+          name: 'description',
+          content: this.description,
+        },
+      ],
     }
   },
 }

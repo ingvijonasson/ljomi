@@ -10,7 +10,7 @@ export default {
    ** See https://nuxtjs.org/api/configuration-head
    */
   head: {
-    title: 'ljomi  — Ingvi Jonasson — Frontend developer',
+    title: 'ljomi  — Ingvi Jonasson',
 
     meta: [
       { charset: 'utf-8' },
@@ -20,7 +20,7 @@ export default {
         hid: 'description',
         name: 'description',
         content:
-          'I’m Ingvi. I develop websites together with designers. I create quality frontend code that works for people.',
+          'I develop websites together with designers. Together we create quality solutions that works for people.',
       },
 
       // Open Graph
@@ -28,14 +28,14 @@ export default {
         property: 'og:title',
         hid: 'og:title',
         name: 'og:title',
-        content: 'ljomi  — Ingvi Jonasson — Frontend developer',
+        content: 'ljomi  — Ingvi Jonasson',
       },
       {
         property: 'og:description',
         hid: 'og:description',
         name: 'og:description',
         content:
-          'I’m Ingvi. I develop websites together with designers. I create quality frontend code that works for people.',
+          'I develop websites together with designers. Together we create quality solutions that works for people.',
       },
       {
         hid: 'og:type',
@@ -53,6 +53,39 @@ export default {
         hid: 'og:image',
         name: 'og:image',
         content: '/icon.png',
+      },
+
+      // Twitter Card
+      {
+        hid: 'twitter:card',
+        name: 'twitter:card',
+        content: 'summary',
+      },
+      {
+        hid: 'twitter:site',
+        name: 'twitter:site',
+        content: '@ingvoo',
+      },
+      {
+        hid: 'twitter:title',
+        name: 'twitter:title',
+        content: 'ljomi  — Ingvi Jonasson',
+      },
+      {
+        hid: 'twitter:description',
+        name: 'twitter:description',
+        content:
+          'I develop websites together with designers. Together we create quality solutions that works for people.',
+      },
+      {
+        hid: 'twitter:image',
+        name: 'twitter:image',
+        content: '/icon.png',
+      },
+      {
+        hid: 'twitter:image:alt',
+        name: 'twitter:image:alt',
+        content: 'Icongraphy for ljomi',
       },
     ],
 

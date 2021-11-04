@@ -52,7 +52,7 @@ export default {
         property: 'og:image',
         hid: 'og:image',
         name: 'og:image',
-        content: '/Icon.png',
+        content: '/icon.png',
       },
     ],
 

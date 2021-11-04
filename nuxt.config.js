@@ -50,7 +50,7 @@ export default {
         property: 'og:image',
         hid: 'og:image',
         name: 'og:image',
-        content: '/static/Icon.png',
+        content: 'Icon.png',
       },
     ],
     link: [

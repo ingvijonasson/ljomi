@@ -80,7 +80,7 @@ export default {
       {
         hid: 'twitter:image',
         name: 'twitter:image',
-        content: '/icon.png',
+        content: 'https://www.ljomi.ch/icon.png',
       },
       {
         hid: 'twitter:image:alt',

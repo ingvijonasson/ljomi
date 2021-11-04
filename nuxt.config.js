@@ -1,4 +1,5 @@
 export default {
+  ssr: true,
   /*
    ** Nuxt target
    ** See https://nuxtjs.org/api/configuration-target
@@ -10,6 +11,7 @@ export default {
    */
   head: {
     title: 'ljomi  — Ingvi Jonasson — Frontend developer',
+
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
@@ -50,9 +52,10 @@ export default {
         property: 'og:image',
         hid: 'og:image',
         name: 'og:image',
-        content: 'Icon.png',
+        content: '/Icon.png',
       },
     ],
+
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
       { rel: 'preconnect', href: 'https://fonts.gstatic.com' },
@@ -62,6 +65,7 @@ export default {
           'https://fonts.googleapis.com/css2?family=Jost:wght@400;700&display=swap',
       },
     ],
+
     script: [
       { src: 'https://identity.netlify.com/v1/netlify-identity-widget.js' },
       {
@@ -90,15 +94,14 @@ export default {
    ** Nuxt.js dev-modules
    */
   buildModules: [
-    // Doc: https://github.com/nuxt-community/eslint-module
+    '@nuxtjs/pwa',
     '@nuxtjs/eslint-module',
-    // Doc: https://github.com/nuxt-community/stylelint-module
     '@nuxtjs/stylelint-module',
   ],
   /*
    ** Nuxt.js modules
    */
-  modules: ['@nuxtjs/pwa', '@nuxt/content'],
+  modules: ['@nuxt/content'],
   /*
    ** Content module configuration
    ** See https://content.nuxtjs.org/configuration

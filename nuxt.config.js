@@ -46,12 +46,12 @@ export default {
         name: 'og:url',
         content: 'https://www.ljomi.ch',
       },
-      // {
-      //   property: 'og:image',
-      //   hid: 'og:image',
-      //   name: 'og:image',
-      //   content: '',
-      // },
+      {
+        property: 'og:image',
+        hid: 'og:image',
+        name: 'og:image',
+        content: '/static/Icon.png',
+      },
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },

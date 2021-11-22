@@ -4,7 +4,7 @@
       <h1>Projects</h1>
     </page-title>
 
-    <div class="container">
+    <div class="section-large container">
       <!-- TODO: Add a loader for when fetching projects -->
       <!-- TODO: Handle error when Github is not repsonding to fetching repos -->
       <!-- TODO: Add a tag/label for archived/obsolite projects -->

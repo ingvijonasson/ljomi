@@ -16,7 +16,7 @@ collections:
     - { label: 'Draft', name: 'draft', widget: 'boolean', default: true }
 ```
 
-Then update the query for the posts so the query will only return the posts which have d `published` is `true`. Your query could look like this.
+Then update the query so it will only return posts which have `published` set to `true`. Your query could look like this.
 
 ```js
   async asyncData({ $content, params }) {
@@ -31,4 +31,4 @@ Then update the query for the posts so the query will only return the posts whic
   },
 ```
 
-Note: Your previously created posts do not have a `draft` set to either true or to false. These posts will not show up because the value does not excist. You will have to update these as needed.
+Note: Your previously created posts do not have a `draft` set to either true or to false. Because the field does not exist. These posts will not show up because of that. You will have to update these as needed.

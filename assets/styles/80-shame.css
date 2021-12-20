@@ -1,0 +1,12 @@
+/* ----------------------------------------*\
+  Shame
+\* ---------------------------------------- */
+
+.nuxt-content-highlight {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.nuxt-content-highlight pre {
+  font-size: .85rem;
+}

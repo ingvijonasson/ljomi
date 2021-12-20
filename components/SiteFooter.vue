@@ -38,7 +38,7 @@
 <style scoped>
 footer {
   --footer-color: var(--color-black);
-  --footer-color-background: var(--color-base);
+  --footer-color-background: var(--color-pink);
 
   margin-top: 5rem;
   position: relative;
@@ -68,7 +68,6 @@ a {
   grid-gap: 1rem;
   padding: calc(3rem + 2vw);
   padding-bottom: calc(1.5rem + 2vw);
-  max-width: 28em;
   background-color: var(--footer-color-background);
   color: var(--footer-color);
 }
@@ -77,7 +76,7 @@ a {
   margin-top: calc(1rem + 3vw);
   margin-bottom: calc(3rem + 3vw);
   font-size: 0.875rem;
-  border-top: 4px solid var(--color-base);
+  border-top: 4px solid var(--color-pink);
 }
 
 .site-footer__column {

@@ -1,0 +1,19 @@
+/* ----------------------------------------*\
+  Settings
+\* ---------------------------------------- */
+
+:root {
+  --color-white: hsl(60, 100%, 100%);
+  --color-black: hsl(180, 6%, 17%);
+  --color-gray: hsl(40, 0%, 85%);
+  --saturation: 75%;
+  --lightness: 97%;
+  --color-pink: hsl(0, var(--saturation), var(--lightness));
+  --color-blue: hsl(200, var(--saturation), var(--lightness));
+  --color-green: hsl(160, var(--saturation), var(--lightness));
+  --color-base: hsl(40, var(--saturation), var(--lightness));
+  --base-background: var(--color-white);
+
+  color: var(--color-black);
+  background-color: var(--base-background);
+}

@@ -1,0 +1,43 @@
+/* ----------------------------------------*\
+  Print
+\* ---------------------------------------- */
+
+@media print {
+  body {
+    font-size: 16px;
+  }
+
+  *,
+  *::before,
+  *::after {
+    background: transparent !important;
+    color: #000 !important;
+    box-shadow: none !important;
+    text-shadow: none !important;
+  }
+
+  a,
+  a:visited {
+    text-decoration: underline;
+  }
+
+  .page-cv a[href]::after {
+    content: ' (' attr(href) ')';
+  }
+
+  p,
+  h2,
+  h3 {
+    orphans: 3;
+    widows: 3;
+  }
+
+  h2,
+  h3 {
+    page-break-after: avoid;
+  }
+
+  .noprint {
+    display: none;
+  }
+}

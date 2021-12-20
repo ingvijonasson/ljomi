@@ -1,0 +1,34 @@
+/* ----------------------------------------*\
+  Sections
+\* ---------------------------------------- */
+
+.section {
+  padding-top: calc(2rem + 1vw);
+  padding-bottom: calc(2rem + 1vw);
+}
+
+
+/**
+* Sizes
+*/
+.section-large {
+  padding-top: calc(1rem + 1vw);
+  padding-bottom: calc(2rem + 3vw);
+}
+
+/**
+* Themes
+*/
+.section-positive {
+  background-color: var(--color-green);
+  color: hsl(160, var(--saturation), 25%);
+}
+
+.section-positive a {
+  color: hsl(160, var(--saturation), 25%);
+}
+
+.section-love {
+  /* background-color: var(--color-pink); */
+  color: hsl(0, var(--saturation), 30%);
+}

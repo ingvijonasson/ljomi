@@ -1,5 +1,5 @@
 <template>
-  <section class="section-recommendations section-large">
+  <section class="section-love section-large">
     <div class="container">
       <!-- <h2>Recommendations</h2> -->
       <h2>Nice words by nicer people</h2>
@@ -30,10 +30,6 @@ export default {
 </script>
 
 <style>
-.section-recommendations {
-  background-color: var(--color-pink);
-}
-
 .recommendation {
   margin-top: calc(1rem + 3vw);
 }

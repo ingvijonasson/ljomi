@@ -3,8 +3,8 @@
     <page-title>
       <p class="text-h1">{{ description }}</p>
     </page-title>
-
     <section-about />
+    <section-work />
     <section-recommendations :recommendations="recommendations" />
   </div>
 </template>
@@ -13,12 +13,14 @@
 import PageTitle from '@/components/PageTitle.vue'
 import SectionAbout from '@/components/SectionAbout.vue'
 import SectionRecommendations from '@/components/SectionRecommendations.vue'
+import SectionWork from '~/components/SectionWork.vue'
 
 export default {
   components: {
     PageTitle,
     SectionAbout,
     SectionRecommendations,
+    SectionWork,
   },
   async asyncData({ $content, params }) {
     const recommendations = await $content(

@@ -51,6 +51,13 @@ export default {
           end: '2018',
         },
         {
+          title: 'Freelance',
+          location: 'Berlin and Reykjavík',
+          role: 'Frontend developer and designer',
+          start: '2010',
+          end: '2016',
+        },
+        {
           title: 'Skapalon',
           location: 'Reykjavík',
           role: 'Frontend developer',
@@ -64,13 +71,6 @@ export default {
           role: 'Tutor',
           start: '2012',
           end: '2013',
-        },
-        {
-          title: 'Freelance',
-          location: 'Berlin and Reykjavík',
-          role: 'Frontend developer and designer',
-          start: '2010',
-          end: '2016',
         },
       ],
     }

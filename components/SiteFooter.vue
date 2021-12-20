@@ -38,7 +38,7 @@
 <style scoped>
 footer {
   --footer-color: var(--color-black);
-  --footer-color-background: var(--color-pink);
+  --footer-color-background: var(--color-base);
 
   margin-top: 5rem;
   position: relative;
@@ -76,7 +76,7 @@ a {
   margin-top: calc(1rem + 3vw);
   margin-bottom: calc(3rem + 3vw);
   font-size: 0.875rem;
-  border-top: 4px solid var(--color-pink);
+  border-top: 4px solid var(--color-base);
 }
 
 .site-footer__column {

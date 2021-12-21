@@ -128,9 +128,14 @@ export default {
    */
   buildModules: [
     '@nuxtjs/pwa',
+    '@nuxtjs/svg-sprite',
     '@nuxtjs/eslint-module',
     '@nuxtjs/stylelint-module',
   ],
+
+  svgSprite: {
+    input: '~/assets/icons/',
+  },
   /*
    ** Nuxt.js modules
    */

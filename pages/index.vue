@@ -8,6 +8,7 @@
         strong focus on responsive design, performance, and accessibility.
       </p>
     </page-title>
+    <section-projects />
     <section-work />
     <section-recommendations :recommendations="recommendations" />
   </div>
@@ -17,12 +18,14 @@
 import PageTitle from '@/components/PageTitle.vue'
 import SectionRecommendations from '@/components/SectionRecommendations.vue'
 import SectionWork from '~/components/SectionWork.vue'
+import SectionProjects from '~/components/SectionProjects.vue'
 
 export default {
   components: {
     PageTitle,
     SectionRecommendations,
     SectionWork,
+    SectionProjects,
   },
   async asyncData({ $content, params }) {
     const recommendations = await $content(

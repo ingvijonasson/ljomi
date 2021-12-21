@@ -1,7 +1,7 @@
 <template>
-  <section class="section-large section-positive">
+  <section class="section-large">
     <div class="container">
-      <h2>Work Experience</h2>
+      <h2 class="section__title">Work Experience</h2>
       <article v-for="(work, key) in works" :key="key" class="work">
         <div class="work__info">
           <h3 class="work__title">

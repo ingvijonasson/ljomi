@@ -68,7 +68,7 @@ export default {
           title: 'SAE Institute',
           location: 'Berlin',
           link: 'https://www.sae.edu',
-          role: 'Tutor',
+          role: 'Supervisor',
           start: '2012',
           end: '2013',
         },

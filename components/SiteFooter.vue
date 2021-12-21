@@ -1,85 +1,123 @@
 <template>
-  <footer class="noprint">
+  <footer class="site-footer noprint">
     <div class="container">
-      <div class="site-footer__inner">
-        <div class="site-footer__column">
-          <h3>Connect</h3>
-          <ul>
-            <li>Ingvi Jonasson</li>
-            <li><a href="tel:+41795234432">079 523 44 32</a></li>
-            <li><a href="mailto:ingvi@ljomi.ch">ingvi@ljomi.ch </a></li>
-          </ul>
-        </div>
-        <div class="site-footer__column">
-          <h3>Elsewhere</h3>
-          <ul>
-            <li>
-              <a href="https://codepen.io/ingvoo">codepen</a>
-            </li>
-            <li>
-              <a href="https://github.com/ingvoo">github</a>
-            </li>
-            <li>
-              <a href="https://ch.linkedin.com/in/ingvoo">linkedin</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </div>
-
-    <div class="container">
-      <div class="site-footer__rest">
-        <div>ljomi © 2020 — 2021</div>
+      <h2 class="site-footer__title">Say hello</h2>
+      <a class="site-footer__mail" href="mailto:ingvi@ljomi.ch">
+        ingvi@ljomi.ch
+      </a>
+      <ul class="site-footer__social-list">
+        <li v-for="(item, index) in social" :key="index">
+          <a class="site-footer__link" :href="item.link" :title="item.icon">
+            <svg-icon class="site-footer__icon" :name="item.icon" />
+          </a>
+        </li>
+      </ul>
+      <div class="site-footer__colophon">
+        This site is built with <a href="https://nuxtjs.org/">Nuxt</a> and
+        hosted on <a href="https://www.netlify.com/">Netlify</a>. The source
+        code is hosted on <a href="https://github.com/ingvoo/ljomi">Github</a>.
+        <div>ljomi ©2020—2021</div>
       </div>
     </div>
   </footer>
 </template>
 
+<script>
+export default {
+  data() {
+    return {
+      social: [
+        {
+          icon: 'codepen',
+          link: 'https://codepen.io/ingvoo',
+        },
+        {
+          icon: 'github',
+          link: 'https://github.com/ingvoo',
+        },
+        {
+          icon: 'twitter',
+          link: 'https://twitter.com/ingvoo',
+        },
+        {
+          icon: 'linkedin',
+          link: 'https://ch.linkedin.com/in/ingvoo',
+        },
+      ],
+    }
+  },
+}
+</script>
+
 <style scoped>
-footer {
-  --footer-color: var(--color-black);
-  --footer-color-background: var(--color-base);
-
-  margin-top: 5rem;
-  position: relative;
-}
-
-h3 {
-  margin-top: 0;
-  margin-bottom: 0.5em;
-  font-size: 1rem;
-}
-
-ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  line-height: 1.8;
-}
-
-a {
-  color: var(--footer-color);
-  text-decoration: none;
+.site-footer {
+  padding: 4rem 0 2rem;
+  background-color: var(--color-base);
 }
 
 .site-footer__inner {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  grid-gap: 1rem;
-  padding: calc(3rem + 2vw);
-  padding-bottom: calc(1.5rem + 2vw);
-  background-color: var(--footer-color-background);
-  color: var(--footer-color);
-}
-.site-footer__rest {
-  padding-top: 0.5rem;
-  margin-top: calc(1rem + 3vw);
-  margin-bottom: calc(3rem + 3vw);
-  font-size: 0.875rem;
-  border-top: 4px solid var(--color-base);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: space-between;
 }
 
-.site-footer__column {
-  margin-bottom: 1.5rem;
+.site-footer__title {
+  font-size: 1rem;
+}
+
+.site-footer__mail {
+  position: relative;
+  z-index: 4;
+  display: inline-block;
+  font-size: 2.5rem;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.site-footer__mail::before {
+  content: ' ';
+  display: block;
+  position: absolute;
+  inset: 55px -20px 5px -20px;
+  z-index: -1;
+  background-color: hsl(0, var(--saturation), 80%);
+  transition: transform 0.3s ease;
+  transform: scaleX(0);
+  transform-origin: bottom right;
+}
+
+.site-footer__mail:hover::before {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+.site-footer__social-list {
+  display: flex;
+  margin-top: 1rem;
+  padding-left: 0;
+  list-style: none;
+}
+
+.site-footer__link {
+  margin-right: 3rem;
+  padding: 1rem 0;
+  transition: color 200ms;
+}
+
+.site-footer__link:hover,
+.site-footer__link:focus {
+  color: hsl(0, var(--saturation), 80%);
+}
+
+.site-footer__icon {
+  max-width: 1.25rem;
+  max-height: 1.25rem;
+}
+
+.site-footer__colophon {
+  margin-top: 6rem;
+  padding-top: 1rem;
+  border-top: 2px solid var(--color-black);
 }
 </style>

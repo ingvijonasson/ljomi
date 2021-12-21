@@ -64,3 +64,8 @@ p code {
   background-color: var(--color-gray);
   border-radius: 0.4em;
 }
+
+::selection {
+  color: var(--color-black);
+  background: var(--color-base);
+}

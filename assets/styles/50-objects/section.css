@@ -44,11 +44,15 @@
   color: hsl(160, var(--saturation), 25%);
 }
 
+.section-positive .section__title::before {
+  background-color: var(--color-pink);
+}
+
 .section-positive a {
   color: hsl(160, var(--saturation), 25%);
 }
 
 .section-love {
-  background-color: var(--color-pink);
+  /* background-color: var(--color-pink); */
   color: hsl(0, var(--saturation), 30%);
 }

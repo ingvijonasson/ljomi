@@ -2,7 +2,7 @@
   <section class="section-love section-large">
     <div class="container">
       <!-- <h2>Recommendations</h2> -->
-      <h2>Nice words by nicer people</h2>
+      <h2 class="section__title">Nice words by nicer people</h2>
       <article
         v-for="item in recommendations"
         :key="item.person"

@@ -20,7 +20,7 @@
 * Themes
 */
 .section-positive {
-  background-color: var(--color-green);
+  /* background-color: var(--color-green); */
   color: hsl(160, var(--saturation), 25%);
 }
 
@@ -29,6 +29,6 @@
 }
 
 .section-love {
-  /* background-color: var(--color-pink); */
+  background-color: var(--color-pink);
   color: hsl(0, var(--saturation), 30%);
 }

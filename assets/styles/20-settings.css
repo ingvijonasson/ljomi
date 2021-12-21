@@ -7,7 +7,7 @@
   --color-black: hsl(180, 6%, 17%);
   --color-gray: hsl(40, 0%, 85%);
   --saturation: 75%;
-  --lightness: 97%;
+  --lightness: 95%;
   --color-pink: hsl(0, var(--saturation), var(--lightness));
   --color-blue: hsl(200, var(--saturation), var(--lightness));
   --color-green: hsl(160, var(--saturation), var(--lightness));

@@ -35,7 +35,8 @@ export default {
 }
 
 .recommendation h3 {
-  margin-bottom: 0.15rem;
+  line-height: 1.1;
+  margin-bottom: 0;
 }
 
 .recommendation h4 {

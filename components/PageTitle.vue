@@ -1,9 +1,7 @@
 <template>
   <section class="section-intro">
     <div class="container">
-      <div class="section-intro__text">
-        <slot></slot>
-      </div>
+      <slot></slot>
     </div>
   </section>
 </template>
@@ -13,7 +11,7 @@
   --fluid-spacing: calc(1.5rem + 4vw);
 
   padding-top: var(--fluid-spacing);
-  padding-bottom: var(--fluid-spacing);
+  padding-bottom: calc(var(--fluid-spacing) * 2);
   background-color: var(--color-base);
 }
 </style>

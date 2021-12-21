@@ -51,7 +51,7 @@ export default {
 
 <style scoped>
 .site-footer {
-  padding: 4rem 0 2rem;
+  padding: calc(3rem + 5vw) 0;
   background-color: var(--color-base);
 }
 
@@ -116,7 +116,7 @@ export default {
 }
 
 .site-footer__colophon {
-  margin-top: 6rem;
+  margin-top: calc(3rem + 5vw);
   padding-top: 1rem;
   border-top: 2px solid var(--color-black);
 }

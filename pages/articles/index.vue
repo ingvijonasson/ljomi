@@ -4,7 +4,7 @@
       <h1>Articles</h1>
     </page-title>
 
-    <div class="section-large">
+    <div class="section section--large">
       <div class="container">
         <ul class="mt-12">
           <li v-for="article of articles" :key="article.slug">

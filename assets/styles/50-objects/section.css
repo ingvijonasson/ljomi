@@ -3,12 +3,22 @@
 \* ---------------------------------------- */
 
 .section {
+  --section-title-color-underline: var(--color-base);
+  --section-background-color: var(--color-white);
+
   padding-top: calc(2rem + 1vw);
   padding-bottom: calc(2rem + 1vw);
+  background-color: var(--section-background-color);
+}
+
+.section--large {
+  padding-top: calc(1rem + 1vw);
+  padding-bottom: calc(2rem + 3vw);
 }
 
 .section__title {
   position: relative;
+  z-index: 1;
   display: inline-block;
   padding-left: .25rem;
   padding-right: 1rem;
@@ -24,35 +34,11 @@
   z-index: -1;
   display: inline-block;
   height: 50%;
-  background-color: var(--color-base);
+  background-color: var(--section-title-color-underline);
 }
 
 
-/**
-* Sizes
-*/
-.section-large {
-  padding-top: calc(1rem + 1vw);
-  padding-bottom: calc(2rem + 3vw);
-}
-
-/**
-* Themes
-*/
-.section-positive {
-  /* background-color: var(--color-green); */
-  color: hsl(160, var(--saturation), 25%);
-}
-
-.section-positive .section__title::before {
-  background-color: var(--color-pink);
-}
-
-.section-positive a {
-  color: hsl(160, var(--saturation), 25%);
-}
-
-.section-love {
-  /* background-color: var(--color-pink); */
-  color: hsl(0, var(--saturation), 30%);
+.section--love {
+  --section-background-color: var(--color-pink-50);
+  --section-title-color-underline: var(--color-pink-200);
 }

@@ -1,5 +1,5 @@
 <template>
-  <section class="section-about section-large">
+  <section class="section section--large">
     <div class="container">
       <!-- <h2>Who</h2> -->
       <!-- <p>

@@ -81,13 +81,14 @@ export default {
   position: absolute;
   inset: 55px -20px 5px -20px;
   z-index: -1;
-  background-color: hsl(0, var(--saturation), 80%);
+  background-color: var(--color-pink-200);
   transition: transform 0.3s ease;
   transform: scaleX(0);
   transform-origin: bottom right;
 }
 
-.site-footer__mail:hover::before {
+.site-footer__mail:hover::before,
+.site-footer__mail:focus::before {
   transform: scaleX(1);
   transform-origin: bottom left;
 }
@@ -107,7 +108,7 @@ export default {
 
 .site-footer__link:hover,
 .site-footer__link:focus {
-  color: hsl(0, var(--saturation), 80%);
+  color: var(--color-pink-500);
 }
 
 .site-footer__icon {

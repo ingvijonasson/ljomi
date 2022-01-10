@@ -1,5 +1,5 @@
 <template>
-  <section class="section-love section-large">
+  <section class="section section--love section--large">
     <div class="container">
       <!-- <h2>Recommendations</h2> -->
       <h2 class="section__title">Nice words by nicer people</h2>

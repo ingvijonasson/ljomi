@@ -1,5 +1,5 @@
 <template>
-  <section class="section-large">
+  <section class="section section--large">
     <div class="container">
       <h2 class="section__title">Work Experience</h2>
       <article v-for="(work, key) in works" :key="key" class="work">

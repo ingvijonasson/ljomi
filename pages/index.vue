@@ -9,8 +9,8 @@
       </p>
     </page-title>
     <section-projects />
-    <section-work />
     <section-recommendations :recommendations="recommendations" />
+    <section-work />
   </div>
 </template>
 

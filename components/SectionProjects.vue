@@ -1,7 +1,9 @@
 <template>
-  <section class="section-large">
-    <div class="container container--large">
+  <section class="section section--large">
+    <div class="container">
       <h2 class="section__title">Latest Work</h2>
+    </div>
+    <div class="projects container container--large">
       <article v-for="(project, key) in projects" :key="key" class="project">
         <div class="project__info">
           <h3 class="project__title">{{ project.title }}</h3>
@@ -61,11 +63,15 @@ export default {
 </script>
 
 <style scoped>
+.projects {
+  margin-top: 2rem;
+}
+
 .project {
   display: grid;
   gap: 2rem;
-  padding-top: 2rem;
-  padding-bottom: 2rem;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
 }
 
 .project__info {

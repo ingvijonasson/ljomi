@@ -4,7 +4,7 @@
       <h1>Projects</h1>
     </page-title>
 
-    <div class="section-large container">
+    <div class="section section--large container">
       <!-- TODO: Add a loader for when fetching projects -->
       <!-- TODO: Handle error when Github is not repsonding to fetching repos -->
       <!-- TODO: Add a tag/label for archived/obsolite projects -->
@@ -116,8 +116,8 @@ export default {
 }
 
 .project__topic {
-  background-color: var(--color-pink);
-  padding: 0.25rem 0.75rem;
+  background-color: var(--color-pink-200);
+  padding: 0.15rem 0.5rem;
   font-size: 0.85rem;
   border-radius: 0.25rem;
 }

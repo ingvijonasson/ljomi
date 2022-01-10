@@ -63,8 +63,10 @@ export default {
 </script>
 
 <style scoped>
-.projects {
-  margin-top: 2rem;
+@media only screen and (min-width: 800px) {
+  .projects {
+    margin-top: 2rem;
+  }
 }
 
 .project {

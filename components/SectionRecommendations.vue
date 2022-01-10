@@ -40,7 +40,8 @@ export default {
 }
 
 .recommendation h4 {
-  margin: 0 0 0.25rem;
+  margin: 0.5rem 0;
+  line-height: 1.2;
 }
 
 .recommendation p,

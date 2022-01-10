@@ -73,13 +73,14 @@ export default {
   font-size: 2.5rem;
   font-weight: bold;
   text-decoration: none;
+  outline: none;
 }
 
 .site-footer__mail::before {
   content: ' ';
   display: block;
   position: absolute;
-  inset: 55px -20px 5px -20px;
+  inset: 60% -20px 5px -20px;
   z-index: -1;
   background-color: var(--color-pink-200);
   transition: transform 0.3s ease;
@@ -103,6 +104,7 @@ export default {
 .site-footer__link {
   margin-right: 3rem;
   padding: 1rem 0;
+  outline: none;
   transition: color 200ms;
 }
 

@@ -70,3 +70,10 @@ p code {
   color: var(--color-black);
   background: var(--color-base);
 }
+
+:focus {
+  outline-color: var(--color-blue);
+  outline-offset: 3px;
+  outline-style: double;
+  outline-width: 3px;
+}

@@ -13,7 +13,7 @@
 
 .section--large {
   padding-top: calc(1rem + 1vw);
-  padding-bottom: calc(2rem + 3vw);
+  padding-bottom: calc(2rem + 5vw);
 }
 
 .section__title {

@@ -1,8 +1,8 @@
 <template>
-  <section class="section-recommendations section-large">
+  <section class="section section--love section--large">
     <div class="container">
       <!-- <h2>Recommendations</h2> -->
-      <h2>Nice words by nicer people</h2>
+      <h2 class="section__title">Nice words by nicer people</h2>
       <article
         v-for="item in recommendations"
         :key="item.person"
@@ -30,20 +30,18 @@ export default {
 </script>
 
 <style>
-.section-recommendations {
-  background-color: var(--color-pink);
-}
-
 .recommendation {
   margin-top: calc(1rem + 3vw);
 }
 
 .recommendation h3 {
-  margin-bottom: 0.15rem;
+  line-height: 1.1;
+  margin-bottom: 0;
 }
 
 .recommendation h4 {
-  margin: 0 0 0.25rem;
+  margin: 0.5rem 0;
+  line-height: 1.2;
 }
 
 .recommendation p,

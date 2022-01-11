@@ -4,18 +4,17 @@
       <h1>Articles</h1>
     </page-title>
 
-    <div class="section-large">
+    <div class="section section--large">
       <div class="container">
         <ul class="mt-12">
           <li v-for="article of articles" :key="article.slug">
+            <small>{{ formatDate(article.createdAt) }}</small>
             <NuxtLink
-              class="block mt-4"
               :to="{ name: 'articles-slug', params: { slug: article.slug } }"
             >
               <h2>{{ article.title }}</h2>
-              <small>{{ formatDate(article.createdAt) }}</small>
-              <p>{{ article.summary }}</p>
             </NuxtLink>
+            <p>{{ article.summary }}</p>
           </li>
         </ul>
       </div>
@@ -62,17 +61,23 @@ ul {
   list-style: none;
   padding: 0;
   margin: 0;
+  margin-top: 3.5rem;
+}
+
+li + li {
+  margin-top: 3rem;
 }
 
 h2 {
   margin-bottom: 0;
+  margin-top: 0.5rem;
 }
 
 small {
   display: block;
-  margin-top: 0.25rem;
   line-height: 1;
-  color: #777;
+
+  /* color: #777; */
 }
 
 p {

@@ -2,26 +2,30 @@
   <div>
     <page-title>
       <p class="text-h1">
-        I’m Ingvi. I develop websites together with designers. I create quality
-        frontend code that works for people.
+        Hi, I’m Ingvi Jonasson, independent user interface developer based in
+        Bern, Switzerland. I help companies and organizations build modern,
+        resilient, and inclusive user interfaces and design systems, with a
+        strong focus on responsive design, performance, and accessibility.
       </p>
     </page-title>
-
-    <section-about />
+    <section-projects />
     <section-recommendations :recommendations="recommendations" />
+    <section-work />
   </div>
 </template>
 
 <script>
 import PageTitle from '@/components/PageTitle.vue'
-import SectionAbout from '@/components/SectionAbout.vue'
 import SectionRecommendations from '@/components/SectionRecommendations.vue'
+import SectionWork from '~/components/SectionWork.vue'
+import SectionProjects from '~/components/SectionProjects.vue'
 
 export default {
   components: {
     PageTitle,
-    SectionAbout,
     SectionRecommendations,
+    SectionWork,
+    SectionProjects,
   },
   async asyncData({ $content, params }) {
     const recommendations = await $content(
@@ -31,6 +35,17 @@ export default {
 
     return {
       recommendations,
+    }
+  },
+  head() {
+    return {
+      meta: [
+        {
+          hid: 'description',
+          name: 'description',
+          content: this.description,
+        },
+      ],
     }
   },
 }

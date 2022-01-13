@@ -36,6 +36,43 @@ export default {
           name: 'description',
           content: this.article.summary,
         },
+
+        // Open Graph
+        {
+          property: 'og:title',
+          hid: 'og:title',
+          name: 'og:title',
+          content: this.article.title,
+        },
+        {
+          property: 'og:description',
+          hid: 'og:description',
+          name: 'og:description',
+          content: this.article.summary,
+        },
+        // {
+        //   property: 'og:url',
+        //   hid: 'og:url',
+        //   name: 'og:url',
+        //   content: 'https://www.ljomi.ch',
+        // },
+
+        // Twitter Card
+        {
+          hid: 'twitter:card',
+          name: 'twitter:card',
+          content: 'summary',
+        },
+        {
+          hid: 'twitter:title',
+          name: 'twitter:title',
+          content: this.article.title,
+        },
+        {
+          hid: 'twitter:description',
+          name: 'twitter:description',
+          content: this.article.summary,
+        },
       ],
     }
   },

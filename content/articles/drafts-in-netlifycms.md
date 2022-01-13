@@ -12,7 +12,6 @@ Create a `draft` property and set it's default to `true`. This way your posts wi
 ```yml
 collections:
   fields:
-    - { label: 'Title', name: 'title', widget: 'string' }
     - { label: 'Draft', name: 'draft', widget: 'boolean', default: true }
 ```
 
@@ -21,14 +20,12 @@ Then update the query so it will only return posts which have `published` set to
 ```js
   async asyncData({ $content, params }) {
     const articles = await $content('articles', params.slug)
-      .only(['title', 'published', 'slug', 'createdAt'])
-      .where({ draft: false })
+      .only(['title', 'published', 'slug'])
+      .where({ published: true })
       .fetch()
 
-    return {
-      articles,
-    }
+    return { articles }
   },
 ```
 
-Note: Your previously created posts do not have a `draft` set to either true or to false. Because the field does not exist. These posts will not show up because of that. You will have to update these as needed.
+Note: Your previously created posts do not have a `published` property set to either true or to false. Because the it does not exist yet and therefore these posts will not show up on your index page unless you add the property.

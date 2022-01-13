@@ -1,6 +1,6 @@
 ---
 title: Using SSH with GIT
-summary: "How to use git and SSH with multiple accounts "
+summary: 'How to use git and SSH with multiple accounts '
 published: false
 ---
 
@@ -23,7 +23,7 @@ git config --global user.name 'your@email.com'
 Now in a work repo which is assositated with different email address you need to set a different email for that repo
 
 ```bash
-git config user.email 'your@work-email.com'
+git config user.email 'your@client-work-email.com'
 ```
 
-If you give `git config -l` you can see your global settings and the work email towards the bottom of the file.
+If you give `git config -l` you can see your global settings first and the work email and username at the the bottom.

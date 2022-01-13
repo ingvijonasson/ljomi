@@ -8,7 +8,7 @@
 
 <style scoped>
 .section-intro {
-  --fluid-spacing: calc(4rem + 3vw);
+  --fluid-spacing: calc(1rem + 3vw);
 
   padding-top: calc(var(--fluid-spacing));
   padding-bottom: calc(var(--fluid-spacing) * 2);

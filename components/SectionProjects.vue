@@ -1,7 +1,7 @@
 <template>
   <section class="section section--large">
     <div class="container">
-      <h2 class="section__title">Latest Work</h2>
+      <h2 class="section__title">Recent Work</h2>
     </div>
     <div class="projects container container--large">
       <article v-for="(project, key) in projects" :key="key" class="project">

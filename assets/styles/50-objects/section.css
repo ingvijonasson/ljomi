@@ -6,13 +6,13 @@
   --section-title-color-underline: var(--color-base);
   --section-background-color: var(--color-white);
 
-  padding-top: calc(2rem + 1vw);
+  padding-top: calc(1rem + 1vw);
   padding-bottom: calc(2rem + 1vw);
   background-color: var(--section-background-color);
 }
 
 .section--large {
-  padding-top: calc(1rem + 1vw);
+  padding-top: calc(2rem + 1vw);
   padding-bottom: calc(2rem + 5vw);
 }
 

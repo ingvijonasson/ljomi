@@ -1,8 +1,8 @@
 <template>
   <section>
     <page-title>
-      <h1>{{ article.title }}</h1>
       <small>{{ formatDate(article.createdAt) }}</small>
+      <h1>{{ article.title }}</h1>
     </page-title>
     <div class="section">
       <div class="container">
@@ -82,6 +82,7 @@ export default {
 
 <style>
 h1 {
+  margin-top: 0.25em;
   margin-bottom: 0;
 }
 

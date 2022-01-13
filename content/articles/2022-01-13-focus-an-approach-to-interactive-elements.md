@@ -4,11 +4,11 @@ summary: Users who navigate with the keybaord will thank you for this
 published: true
 ---
 
-The focus ring is that blue border around the element that is currently active or focused on the site you are looking at. Unfortunately designers and developers often remove this feature and therefore break the experience for many users.
+The focus ring is that blue border outline around the currently focused element on the site your are visiting. Unfortunately designers and developers often remove this feature and therefore break the experience for many users.
 
-The reason why they might do that is probably because the blue ring does not align with the visual design or the identity of the brand. What seems also to be a common approach is to style the outline very minimal. So instead of removing the outline the focus state gets very minimal styles. So basically the styles are there but hard to see and follow when navigating.
+The reason why they might do so is probably because the outline does not align with the visual design or the identity of the brand. What seems also to be a common approach is to style the outline very minimal. So instead of removing the outline the focus state gets very minimal styles. So basically the focus style is in place but done in a way that it is hard to see it and also to follow when navigating with the keyboard.
 
-The approach I like to follow is to make the focus ring look good and prominent and to apply it to all interactive elements by default. Basically make it very visible.
+The approach I like to follow is to make the focus ring look good and also prominent and to apply it to all interactive elements by default. Basically make it very visible when navigating.
 
 ```css
 a[href]:focus,
@@ -38,4 +38,4 @@ This could be changing text color, background color, adding underlines or custom
 
 ## Conclusion
 
-The focus ring is there in your browser by default. Let’s not break the experience and never remove it. By prioritizing the default focus ring styles for all interactive elements and making it look good you prioritise the user experience and foster accessibility. Then adjust the experience for the elements that need a different style then the default.
+The focus ring is there in your browser by default. Let’s not break the experience and therefore never remove it. By prioritizing the focus ring styles for all interactive elements and improving it's style you do prioritise the user experience and foster accessibility. Then when needed adjust the experience for the elements that need a different styles.

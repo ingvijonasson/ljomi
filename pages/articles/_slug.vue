@@ -4,27 +4,9 @@
       <h1>{{ article.title }}</h1>
       <small>{{ formatDate(article.createdAt) }}</small>
     </page-title>
-
     <div class="section">
       <div class="container">
         <article>
-          <!-- <nav>
-            <ul class="list-disc p-4">
-              <li
-                v-for="link of article.toc"
-                :key="link.id"
-                :class="{
-                  'py-1': link.depth === 2,
-                  'ml-2 pb-2': link.depth === 3,
-                }"
-              >
-                <NuxtLink :to="`#${link.id}`" class="underline">
-                  {{ link.text }}
-                </NuxtLink>
-              </li>
-            </ul>
-          </nav> -->
-
           <nuxt-content :document="article" />
         </article>
       </div>
@@ -65,11 +47,12 @@ h1 {
   margin-bottom: 0;
 }
 
-.icon.icon-link {
+/* TODO:  Lets add this back asp and then remove the tabindex as well */
+/* .icon.icon-link {
   background-image: url('~assets/icons/hashtag.svg');
   display: inline-block;
   width: 20px;
   height: 20px;
   background-size: 20px 20px;
-}
+} */
 </style>

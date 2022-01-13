@@ -5,6 +5,9 @@
         <nuxt-link to="/" aria-label="Navigate to frontpage">
           <ljomi-logo />
         </nuxt-link>
+        <nav>
+          <nuxt-link to="/articles">Articles</nuxt-link>
+        </nav>
       </div>
     </div>
   </header>

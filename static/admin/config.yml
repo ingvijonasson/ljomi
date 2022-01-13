@@ -12,7 +12,7 @@ collections:
     folder: 'content/articles'
     format: 'frontmatter'
     create: true
-    slug: '{{year}}-{{slug}}'
+    slug: '{{slug}}'
     editor:
       preview: false
     fields:

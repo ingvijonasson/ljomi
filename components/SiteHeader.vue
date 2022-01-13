@@ -22,14 +22,9 @@ export default {
 
 <style scoped>
 header {
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  z-index: 10;
   padding-top: clamp(1rem, 1.5rem + 1.5vw, 3rem);
   padding-bottom: clamp(1rem, 1.5rem + 1.5vw, 3rem);
-  background-color: transparent;
+  background-color: var(--color-base);
 }
 
 .site-header__layout {
@@ -40,12 +35,12 @@ header {
 
 .logo {
   font-size: 1.25rem;
-  font-weight: 600;
+  font-weight: var(--font-bold);
   text-decoration: none;
 }
 
-/* nav a {
+nav a {
   text-decoration: none;
-  font-weight: 600;
-} */
+  font-weight: var(--font-bold);
+}
 </style>

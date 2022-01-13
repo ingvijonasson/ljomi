@@ -200,7 +200,7 @@ ul {
 }
 .card__period {
   margin: 0;
-  font-weight: bold;
+  font-weight: var(--font-bold);
   font-size: 0.75rem;
 }
 </style>

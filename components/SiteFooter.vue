@@ -71,7 +71,7 @@ export default {
   z-index: 4;
   display: inline-block;
   font-size: 2.5rem;
-  font-weight: bold;
+  font-weight: var(--font-bold);
   text-decoration: none;
   outline: none;
 }

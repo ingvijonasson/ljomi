@@ -3,6 +3,7 @@
 \* ---------------------------------------- */
 
 :root {
+  /* Colors */
   --color-white: hsl(60, 100%, 100%);
   --color-black: hsl(180, 6%, 17%);
   --color-gray: hsl(40, 0%, 85%);
@@ -20,6 +21,7 @@
   --color-pink-900: hsl(342, 75%, 30%);
   --base-background: var(--color-white);
 
-  color: var(--color-black);
-  background-color: var(--base-background);
+  /* Typography */
+  --font-regular: 400;
+  --font-bold: 600;
 }

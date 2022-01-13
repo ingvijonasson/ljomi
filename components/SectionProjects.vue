@@ -92,7 +92,7 @@ export default {
 
 .project__tagline {
   font-size: 0.85rem;
-  font-weight: 400;
+  font-weight: var(--font-regular);
 }
 
 .project__stack-list {

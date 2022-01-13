@@ -28,7 +28,7 @@ export default {
     const articles = await $content('articles', params.slug)
       .only(['title', 'published', 'summary', 'slug', 'createdAt', 'updatedAt'])
       .where({ published: true })
-      .sortBy('createdAt', 'asc')
+      .sortBy('createdAt', 'desc')
       .fetch()
 
     return {

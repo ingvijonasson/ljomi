@@ -50,6 +50,7 @@ export default {
           name: 'og:description',
           content: this.article.summary,
         },
+
         // {
         //   property: 'og:url',
         //   hid: 'og:url',
@@ -85,6 +86,7 @@ h1 {
 }
 
 /* TODO:  Lets add this back asp and then remove the tabindex as well */
+
 /* .icon.icon-link {
   background-image: url('~assets/icons/hashtag.svg');
   display: inline-block;

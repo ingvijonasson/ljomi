@@ -76,8 +76,6 @@ h2 {
 small {
   display: block;
   line-height: 1;
-
-  /* color: #777; */
 }
 
 p {

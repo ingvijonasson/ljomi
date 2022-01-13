@@ -1,6 +1,6 @@
 ---
 title: Focus - an approach to styling interactive elements
-summary: Users navigating with the keyboard will thank you for this
+summary: Users navigating with a keyboard will be thankful
 published: true
 ---
 

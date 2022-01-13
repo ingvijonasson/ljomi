@@ -2,7 +2,12 @@
   Shame
 \* ---------------------------------------- */
 
-.nuxt-content-highlight {
+
+/**
+* Codepen and syntax highligher
+*/
+.nuxt-content-highlight,
+.cp_embed_wrapper {
   margin-top: 2rem;
   margin-bottom: 2rem;
 }

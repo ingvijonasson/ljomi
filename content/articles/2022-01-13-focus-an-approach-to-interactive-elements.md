@@ -6,7 +6,7 @@ published: true
 
 The focus ring is that blue border outline around the currently focused element on the site your are visiting. Unfortunately designers and developers often remove this feature and therefore break the experience for many users.
 
-The reason why they might do so is probably because the outline does not align with the visual design or the identity of the brand. Another common approach is to style the outline very minimally. So instead of removing the outline the focus state gets very subtle styles. So basically the focus style is in place but done in a way that it is hard to see it and also to follow when navigating with the keyboard.
+The reason why they might do so is probably because the outline does not align with the visual design or the identity of the brand. Another common approach is to style the outline very minimally. So instead of removing the outline the focus state gets very subtle styles that are easily missed. So basically the focus style is in place but done in a way that it is hard to see it and also to follow when navigating with the keyboard.
 
 The approach I like to follow is to make the focus ring look good and also prominent and to apply it to all interactive elements by default. Basically make it very visible when navigating.
 

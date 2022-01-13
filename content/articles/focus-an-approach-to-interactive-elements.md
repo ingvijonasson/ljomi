@@ -25,7 +25,6 @@ button:not([disabled]):focus,
   outline-offset: 1px;
   outline-style: dotted;
   outline-width: 4px;
-
 }
 ```
 

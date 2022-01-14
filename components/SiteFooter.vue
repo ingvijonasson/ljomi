@@ -16,7 +16,7 @@
         This site is built with <a href="https://nuxtjs.org/">Nuxt</a> and
         hosted on <a href="https://www.netlify.com/">Netlify</a>. The source
         code is hosted on <a href="https://github.com/ingvoo/ljomi">Github</a>.
-        <div>ljomi ©2020—2021</div>
+        <div>ljomi ©2020—{{ currentYear }}</div>
       </div>
     </div>
   </footer>
@@ -45,6 +45,11 @@ export default {
         },
       ],
     }
+  },
+  computed: {
+    currentYear() {
+      return new Date().getFullYear()
+    },
   },
 }
 </script>

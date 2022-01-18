@@ -54,7 +54,15 @@ export default {
           link: 'https://www.simpego.ch/',
           cover: 'cover-simpego',
           color: '#ff7c7c',
-          stack: ['scss', 'webpack', 'babel'],
+          stack: ['scss', 'webpack'],
+        },
+        {
+          title: 'Livindo',
+          tagline: 'Interior design',
+          link: 'https://livindo.ch',
+          cover: 'cover-livindo',
+          color: '#d7b06e',
+          stack: ['scss', 'webpack'],
         },
       ],
     }
@@ -86,6 +94,7 @@ export default {
 
 .project__title {
   margin-top: 0;
+  margin-bottom: 0;
   font-size: 2.5rem;
   line-height: 1.2;
 }
@@ -153,7 +162,11 @@ export default {
   }
 
   .project__cover-wrapper:hover .project__cover {
-    transform: scale(1.05) translateX(-2%);
+    transform: scale(1.08) translateX(2%);
+  }
+
+  .project:nth-child(odd) .project__cover-wrapper:hover .project__cover {
+    transform: scale(1.08) translateX(-2%);
   }
 }
 </style>

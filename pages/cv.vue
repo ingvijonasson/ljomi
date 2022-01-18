@@ -183,7 +183,18 @@
 </template>
 
 <script>
-export default {}
+export default {
+  head() {
+    return {
+      meta: [
+        {
+          name: 'robots',
+          content: 'noindex,follow',
+        },
+      ],
+    }
+  },
+}
 </script>
 
 <style scoped>

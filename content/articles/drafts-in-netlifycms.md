@@ -2,7 +2,7 @@
 title: Drafts in NetlifyCMS
 summary: How to control post drafts in NetlifyCMS and hide them from your app
 createdAt: 2021-04-10
-published: true
+published: false
 ---
 
 In [Netlify CMS](https://www.netlifycms.org/) you can not really create drafts. All your pages and posts goes into one directory in your git repository and by default is available. One way to manage drafts is by setting up a [boolean field](https://www.netlifycms.org/docs/widgets/#boolean) for the content and then query the content based on that boolean value.

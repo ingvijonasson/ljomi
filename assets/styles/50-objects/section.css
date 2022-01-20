@@ -40,6 +40,29 @@
 }
 
 .section--love {
-  --section-background-color: var(--color-pink-50);
-  --section-title-color-underline: var(--color-pink-200);
+  --section-background-color: transparent;
+  --section-title-color-underline: var(--color-pink-100);
+
+  position: relative;
+  overflow: hidden;
+}
+
+.section--love::before,
+.section--love::after {
+  content: '';
+  display: block;
+  position: absolute;
+  left: 50%;
+  bottom: 3vw;
+  z-index: -1;
+  width: calc(400px + 20vw);
+  height: 100%;
+  background-color: var(--color-pink-50);
+  transform: translateX(-12%) skew(3.5deg) scale(0.8);
+  transform-origin: bottom left;
+}
+
+.section--love::after {
+  transform: translateX(-88%) skew(2.5deg) scale(0.8);
+  background-color: var(--color-pink-50);
 }

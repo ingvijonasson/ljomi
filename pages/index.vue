@@ -11,14 +11,14 @@
     <section-projects />
     <section-recommendations :recommendations="recommendations" />
     <section-about />
-    <section-work />
+    <section-experience />
   </div>
 </template>
 
 <script>
 import PageTitle from '@/components/PageTitle.vue'
 import SectionRecommendations from '@/components/SectionRecommendations.vue'
-import SectionWork from '~/components/SectionWork.vue'
+import SectionExperience from '~/components/SectionExperience.vue'
 import SectionProjects from '~/components/SectionProjects.vue'
 import SectionAbout from '~/components/SectionAbout.vue'
 
@@ -26,7 +26,7 @@ export default {
   components: {
     PageTitle,
     SectionRecommendations,
-    SectionWork,
+    SectionExperience,
     SectionProjects,
     SectionAbout,
   },

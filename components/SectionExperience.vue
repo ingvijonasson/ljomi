@@ -8,9 +8,9 @@
             {{ work.title }}
           </h3>
           <p class="work__role">{{ work.role }}</p>
-          <a v-if="work.link" class="work__link" :href="work.link">
+          <!-- <a v-if="work.link" class="work__link" :href="work.link">
             {{ work.link }}
-          </a>
+          </a> -->
         </div>
         <time class="block">
           {{ work.start }}
@@ -58,7 +58,7 @@ export default {
           end: '2016',
         },
         {
-          title: 'Skapalon',
+          title: 'Skapalón',
           location: 'Reykjavík',
           role: 'Frontend developer',
           start: '2012',

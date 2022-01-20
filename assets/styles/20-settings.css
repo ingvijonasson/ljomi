@@ -21,7 +21,16 @@
   --color-pink-900: hsl(342, 75%, 30%);
   --base-background: var(--color-white);
 
-  /* Typography */
+  /* Font weights */
   --font-regular: 400;
   --font-bold: 600;
+
+  /* Font sizes  */
+  --text-xs: 0.75rem;
+  --text-sm: 0.85rem;
+  --text-base: 1rem;
+  --text-lg: 1.4rem;
+  --text-xl: 1.6rem;
+  --text-2xl: 2rem;
+  --text-3xl: 2.5rem;
 }

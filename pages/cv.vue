@@ -204,7 +204,7 @@ export default {
 
 <style scoped>
 h2 {
-  font-size: 1rem;
+  font-size: var(--text-base);
   letter-spacing: 2px;
   color: #575757;
 }
@@ -223,6 +223,6 @@ ul {
 .card__period {
   margin: 0;
   font-weight: var(--font-bold);
-  font-size: 0.75rem;
+  font-size: var(--text-xs);
 }
 </style>

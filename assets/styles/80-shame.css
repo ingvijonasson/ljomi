@@ -13,5 +13,5 @@
 }
 
 .nuxt-content-highlight pre {
-  font-size: .85rem;
+  font-size: var(--text-sm);
 }

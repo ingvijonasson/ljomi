@@ -73,14 +73,14 @@ export default {
 }
 
 .site-footer__title {
-  font-size: 1rem;
+  font-size: var(--text-base);
 }
 
 .site-footer__mail {
   position: relative;
   z-index: 4;
   display: inline-block;
-  font-size: 2.5rem;
+  font-size: var(--text-3xl);
   font-weight: var(--font-bold);
   text-decoration: none;
   outline: none;

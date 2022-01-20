@@ -118,7 +118,7 @@ export default {
 .project__topic {
   background-color: var(--color-pink-200);
   padding: 0.15rem 0.5rem;
-  font-size: 0.85rem;
+  font-size: var(--text-sm);
   border-radius: 0.25rem;
 }
 

@@ -95,12 +95,12 @@ export default {
 .project__title {
   margin-top: 0;
   margin-bottom: 0;
-  font-size: 2.5rem;
+  font-size: var(--text-3xl);
   line-height: 1.2;
 }
 
 .project__tagline {
-  font-size: 0.85rem;
+  font-size: var(--text-sm);
   font-weight: var(--font-regular);
 }
 

@@ -94,7 +94,7 @@ export default {
 }
 
 .work__link {
-  font-size: 0.85rem;
+  font-size: var(--text-sm);
   font-weight: var(--font-bold);
 }
 

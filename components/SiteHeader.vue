@@ -36,12 +36,6 @@ header {
   align-items: center;
 }
 
-.logo {
-  font-size: 1.25rem;
-  font-weight: var(--font-bold);
-  text-decoration: none;
-}
-
 nav a {
   text-decoration: none;
   font-weight: var(--font-bold);

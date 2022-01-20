@@ -18,12 +18,13 @@
 
       <p>
         In my spare time I enjoy tinkering with open source
-        <a href="https://github.com/ingvoo">projects</a> and sometimes teach
-        teenagers how to develop and design for the web. When offline I do yoga,
-        run, make music or most likely spend time and playing games with my
-        family. I love records and having music in a physical form is very
-        important to me. Here is a big part of my
+        <a class="link" href="https://github.com/ingvoo">projects</a> and
+        sometimes teach teenagers how to develop and design for the web. When
+        offline I do yoga, run, make music or most likely spend time and playing
+        games with my family. I love records and having music in a physical form
+        is very important to me. Here is a big part of my
         <a
+          class="link"
           href="https://www.discogs.com/user/ingvoo/collection?header=1"
           title="discogs collection"
           >collection</a

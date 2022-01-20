@@ -42,7 +42,7 @@ export default {
 .recommendation {
   padding: 1.2rem;
   border-radius: 0.25rem;
-  box-shadow: 0 0 3px hsla(0, 0%, 0%, 0.2);
+  box-shadow: 0 0 8px hsla(0, 0%, 0%, 0.1);
   background-color: var(--color-white);
   max-width: 700px;
 }

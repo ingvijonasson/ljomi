@@ -30,11 +30,4 @@
   .link:focus::before {
     transform: scale(1) translateY(5%);
   }
-
-  /**
-  * Modifiers
-  */
-  /* .link--white {
-    --color-link: var(--color-gray);
-  } */
 }

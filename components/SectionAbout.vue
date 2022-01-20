@@ -23,15 +23,16 @@
         <a class="link" href="https://github.com/ingvoo">projects</a> and
         sometimes teach teenagers how to develop and design for the web. When
         offline I do yoga, run, make music or most likely spend time and playing
-        games with my family. I love records and having music in a physical form
-        is very important to me. Here is a big part of my
+        games with my family. I love
         <a
           class="link"
           href="https://www.discogs.com/user/ingvoo/collection?header=1"
-          title="discogs collection"
-          >collection</a
-        >. Playing music as a dj used to be a big part of my life but has lately
-        taken a back seat as a past time hobby.
+        >
+          my records
+        </a>
+        and having music in a physical form is very important to me. Playing
+        music as a dj used to be a big part of my life but has lately taken a
+        back seat as a past time hobby.
       </p>
     </div>
   </section>

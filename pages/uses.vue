@@ -5,6 +5,18 @@
     </page-title>
     <section class="section section-large">
       <div class="container">
+        <h2>Hardware</h2>
+        <ul>
+          <li>Macbook Pro 2019 16 inch</li>
+          <li>Dell U3419W - curved monitor</li>
+          <li>Keychron K1 - mechanical Keyboard</li>
+          <li>
+            Logitech MX3 for Mac - very popular mouse. Highly recommend it
+          </li>
+          <li>Logitech Brio - webcamera</li>
+          <li>Rode NT-USB - microphone</li>
+        </ul>
+
         <h2>Editor and Terminal</h2>
         <ul>
           <li>Firefox - for private usage. Chrome and Edge for testing</li>

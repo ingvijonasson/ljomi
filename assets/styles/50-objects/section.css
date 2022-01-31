@@ -3,7 +3,7 @@
 \* ---------------------------------------- */
 
 .section {
-  --section-title-color-underline: var(--color-base);
+  --section-title-color-underline: var(--color-base-300);
   --section-background-color: var(--color-white);
 
   padding-top: calc(1rem + 1vw);

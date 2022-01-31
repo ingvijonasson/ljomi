@@ -12,6 +12,6 @@
 
   padding-top: calc(var(--fluid-spacing));
   padding-bottom: calc(var(--fluid-spacing) * 2);
-  background-color: var(--color-base);
+  background-color: var(--color-base-300);
 }
 </style>

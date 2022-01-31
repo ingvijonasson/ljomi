@@ -62,7 +62,7 @@ export default {
 <style scoped>
 .site-footer {
   padding: calc(3rem + 5vw) 0;
-  background-color: var(--color-base);
+  background-color: var(--color-base-300);
 }
 
 .site-footer__inner {

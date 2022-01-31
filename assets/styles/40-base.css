@@ -24,7 +24,10 @@ body {
 
 h1,
 h2,
-h3,
+h3 {
+  margin-top: 1.25em;
+}
+
 h4,
 h5,
 h6,
@@ -33,7 +36,7 @@ ul,
 ol,
 dl,
 iframe {
-  margin-top: 1.25em;
+  margin-top: 0.5em;
   margin-bottom: .5em;
 }
 
@@ -92,7 +95,7 @@ p code {
 
 ::selection {
   color: var(--color-black);
-  background: var(--color-base);
+  background: var(--color-base-300);
 }
 
 :focus {

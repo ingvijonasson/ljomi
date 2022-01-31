@@ -27,7 +27,7 @@ export default {
 header {
   padding-top: clamp(1rem, 1.5rem + 1.5vw, 3rem);
   padding-bottom: clamp(1rem, 1.5rem + 1.5vw, 3rem);
-  background-color: var(--color-base);
+  background-color: var(--color-base-300);
 }
 
 .site-header__layout {

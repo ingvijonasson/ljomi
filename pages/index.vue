@@ -3,9 +3,9 @@
     <page-title>
       <p class="text-h1">
         Hi, I’m Ingvi Jonasson, independent user interface developer based in
-        Bern, Switzerland. I help companies and organizations build modern,
-        resilient, and inclusive user interfaces and design systems, with a
-        strong focus on responsive design, performance, and accessibility.
+        Bern, Switzerland. I help companies and organisations build modern,
+        resilient and inclusive user interfaces with a strong focus on
+        <strong>user experience</strong> and <strong>accessibility</strong>.
       </p>
     </page-title>
     <section-projects />

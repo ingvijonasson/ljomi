@@ -12,7 +12,7 @@
         >
           <h3>{{ item.person }}</h3>
           <h4>{{ item.title }} - {{ item.organization }}</h4>
-          <blockquote cite="https://www.linkedin.com/in/ingvijonasson/">
+          <blockquote cite="https://www.linkedin.com/in/ingvoo/">
             <nuxt-content :document="item" />
           </blockquote>
         </article>

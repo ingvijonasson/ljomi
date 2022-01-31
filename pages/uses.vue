@@ -5,6 +5,7 @@
     </page-title>
     <section class="section section-large">
       <div class="container">
+        <p>All the things I currently choose to use. No affiliates.</p>
         <h2>Hardware</h2>
         <ul>
           <li>Macbook Pro 2019 16 inch</li>
@@ -19,9 +20,16 @@
 
         <h2>Editor and Terminal</h2>
         <ul>
-          <li>Firefox - for private usage. Chrome and Edge for testing</li>
+          <li>Firefox - for private and development</li>
+          <li>Browserstack, Chrome and Edge - for testing</li>
           <li>iTerm - my prefered terminal</li>
           <li>Visual studio code - previously using sublime text and atom</li>
+          <li>
+            <a class="link" href="https://github.com/taniarascia/new-moon">
+              New Moon
+            </a>
+            - VSCode theme
+          </li>
           <li>Tower - GUI for GIT</li>
         </ul>
 
@@ -36,16 +44,10 @@
           </li>
           <li>Dato - replace the macOs clock with multiple clocks timezones</li>
           <li>Figma - for designing</li>
-          <li>Kap - for quick screen recording</li>
-          <li>Maccy - for managing multiple cliphands</li>
-        </ul>
-
-        <h2>Saas</h2>
-        <ul>
-          <li>
-            Browserstack - for testing legacy browsers or better said ie11
-          </li>
           <li>Harvest - for time tracking and simple invoicing</li>
+          <li>Kap - for quick screen recording</li>
+          <li>KeyCastr - for displaying keystrokes</li>
+          <li>Maccy - for managing multiple cliphands</li>
         </ul>
 
         <h2>Backup strategy</h2>
@@ -59,15 +61,10 @@
           <li>SpiderOak - for backing up everything else</li>
         </ul>
 
-        <!-- <h2>Hardware - Desk setup</h2> -->
-
         <h2>Audio</h2>
         <ul>
           <li>Ableton live 11 - for editing audio files and compose</li>
-          <li>
-            RØDE NT-USB microphone and LogiLink professional Microphone Boom Arm
-            Stand - for quality audio
-          </li>
+          <li>Novation Launchkey Mini MK3</li>
         </ul>
 
         <h2>Miscellaneous</h2>

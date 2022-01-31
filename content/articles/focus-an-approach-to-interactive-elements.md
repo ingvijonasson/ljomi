@@ -30,7 +30,7 @@ button:not([disabled]):focus,
 
 One great example is how it is done on the [Smashing Magazine](https://www.smashingmagazine.com/) site. At the time of writing the site has a very prominent dotted outline for almost all interactive elements. If you visit the site use the tab key to navigate the site and see the prominent blue outline.
 
-## When the default does not work out
+## When default styles do not work out
 
 There will be instances where the ring might look less good or sometimes even awkward. In these cases you might want to come up with better visuals for the element. This might be the brand or logo of the site or you might want to style form elements differently than other interactive elements.
 This could be done by changing the text color or background color or adding a custom border or a combination of any of these.

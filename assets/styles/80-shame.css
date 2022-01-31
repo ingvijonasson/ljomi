@@ -8,8 +8,8 @@
 */
 .nuxt-content-highlight,
 .cp_embed_wrapper {
-  margin-top: 1rem;
-  margin-bottom: 0.5rem;
+  margin-top: 1.5em;
+  margin-bottom: 1.5em;
 }
 
 .nuxt-content-highlight pre {

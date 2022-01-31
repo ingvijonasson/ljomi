@@ -17,8 +17,8 @@
         is essential for responsive web design, findability in search engines
         and for accessibility. I pay great attention to the details and I make
         sure that everything is in its right place. Get a
-        <a href="/ij-resume.pdf" class="link">copy of my resume</a> for more
-        details.
+        <a href="/ingvi_jonasson-resume.pdf" class="link">copy of my resume</a>
+        for more details.
       </p>
 
       <h3>Free time</h3>

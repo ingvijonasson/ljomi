@@ -24,6 +24,13 @@ collections:
           widget: 'boolean',
           default: false,
         }
+      - {
+          label: 'Date',
+          name: 'createdAt',
+          widget: 'datetime',
+          date_format: 'YYYY-MM-DD',
+          hint: 'This field overwrites the default createdAt value. Which is often set to current date instead of the date when the post really was created or published',
+        }
       - { label: 'Body', name: 'body', widget: 'markdown' }
 
   - name: 'recommendations'

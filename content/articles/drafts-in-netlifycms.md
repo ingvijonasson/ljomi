@@ -1,7 +1,7 @@
 ---
 title: Drafts in NetlifyCMS
 summary: How to control post drafts in NetlifyCMS and hide them from your app
-createdAt: 2021-04-10
+createdAt: 2021-02-03
 published: false
 ---
 

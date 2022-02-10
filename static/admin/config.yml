@@ -29,6 +29,7 @@ collections:
           name: 'createdAt',
           widget: 'datetime',
           date_format: 'YYYY-MM-DD',
+          time_format: false,
           hint: 'This field overwrites the default createdAt value. Which is often set to current date instead of the date when the post really was created or published',
         }
       - { label: 'Body', name: 'body', widget: 'markdown' }

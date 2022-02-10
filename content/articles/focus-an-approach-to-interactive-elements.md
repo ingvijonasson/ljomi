@@ -2,6 +2,7 @@
 title: Focus - an approach to styling interactive elements
 summary: Users navigating with a keyboard will be thankful
 published: true
+createdAt: 2022-01-13T09:00:55.782Z
 ---
 
 The focus ring is that blue outline around the element that is currently focused on the site your are visiting. Unfortunately designers and developers often remove this feature and therefore break the experience for many users.

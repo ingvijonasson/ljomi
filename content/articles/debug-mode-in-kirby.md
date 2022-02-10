@@ -3,6 +3,7 @@ title: Debug mode in Kirby
 summary: How to setup debug mode only for local enviroment
 published: true
 date_published: 2022-02-01
+createdAt: 2022-02-03T08:56:45.743Z
 ---
 
 If the file `config.php` does not exist in `site/config` directory then create one and set debug to `true`

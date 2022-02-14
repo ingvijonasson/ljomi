@@ -18,7 +18,7 @@
         and for accessibility. I pay great attention to the details and I make
         sure that everything is in its right place. Get a
         <a
-          data-analytics='"Resume"'
+          data-analytics="Resume"
           href="/ingvi_jonasson-resume.pdf"
           class="link"
         >

@@ -5,7 +5,7 @@
       <a
         class="site-footer__mail"
         href="mailto:ingvi@ljomi.ch"
-        data-analytics='"Email"'
+        data-analytics="Email"
       >
         ingvi@ljomi.ch
       </a>
@@ -15,7 +15,7 @@
             class="site-footer__link"
             :href="item.link"
             :title="item.title"
-            :data-analytics="`${item.title}`"
+            :data-analytics="item.title"
           >
             <svg-icon class="site-footer__icon" :name="item.title" />
           </a>

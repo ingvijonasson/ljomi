@@ -44,3 +44,18 @@ Now I need to run a `git log` or `gitlog` to find the commit identifier and rese
 gitlog
 git reset --hard [commit identifier] 
 ```
+
+## Mergin and rebasing
+I have two options when I want changes from one branch to be merged into another using merge I will create a new new commit with all the changes that are ahead to my branch. So if there are 10 new commits on master branch this will create a new commit on my branch with all the changes from the 10 commits. So when I am on a feature branch and I want to get the latest from master I run:
+
+```
+git merge master
+```
+
+On the other hand if I do not want to create that extra merge commit but instead get all 10 commits from master I run `git rebase` and then my feature branch commits will stay on top of the commits from master just like as if I just created that feature branch I am on. So in this example where I am on a feature branch where I want latest commits from master I run:
+  
+```
+git rebase master
+```
+
+Note: I only use `git rebase` when I am the only one working on that feature branch.

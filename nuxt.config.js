@@ -105,8 +105,9 @@ export default {
         defer: true,
         async: true,
         'data-domain': 'ljomi.ch',
-        src: 'https://plausible.io/js/plausible.js',
+        src: 'https://plausible.io/js/plausible.outbound-links.js',
       },
+      { src: '/static/plausible.js' },
     ],
   },
   /*

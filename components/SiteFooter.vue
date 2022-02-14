@@ -2,13 +2,22 @@
   <footer class="site-footer noprint">
     <div class="container">
       <h2 class="site-footer__title">Say hello</h2>
-      <a class="site-footer__mail" href="mailto:ingvi@ljomi.ch">
+      <a
+        class="site-footer__mail"
+        href="mailto:ingvi@ljomi.ch"
+        data-analytics='"Email"'
+      >
         ingvi@ljomi.ch
       </a>
       <ul class="site-footer__social-list">
         <li v-for="(item, index) in social" :key="index">
-          <a class="site-footer__link" :href="item.link" :title="item.icon">
-            <svg-icon class="site-footer__icon" :name="item.icon" />
+          <a
+            class="site-footer__link"
+            :href="item.link"
+            :title="item.title"
+            :data-analytics="`${item.title}`"
+          >
+            <svg-icon class="site-footer__icon" :name="item.title" />
           </a>
         </li>
       </ul>
@@ -33,19 +42,19 @@ export default {
     return {
       social: [
         {
-          icon: 'codepen',
+          title: 'codepen',
           link: 'https://codepen.io/ingvoo',
         },
         {
-          icon: 'github',
+          title: 'github',
           link: 'https://github.com/ingvoo',
         },
         {
-          icon: 'twitter',
+          title: 'twitter',
           link: 'https://twitter.com/ingvoo',
         },
         {
-          icon: 'linkedin',
+          title: 'linkedin',
           link: 'https://ch.linkedin.com/in/ingvoo',
         },
       ],

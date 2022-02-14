@@ -108,6 +108,7 @@ export default {
         src: 'https://plausible.io/js/plausible.outbound-links.js',
       },
       { src: '/static/plausible.js' },
+      { src: '/static/plausible-custom-events.js' },
     ],
   },
   /*

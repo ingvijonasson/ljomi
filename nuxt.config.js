@@ -107,8 +107,8 @@ export default {
         'data-domain': 'ljomi.ch',
         src: 'https://plausible.io/js/plausible.outbound-links.js',
       },
-      { src: '/static/plausible.js' },
-      { src: '/static/plausible-custom-events.js' },
+      { src: '/plausible.js' },
+      { src: '/plausible-custom-events.js' },
     ],
   },
   /*

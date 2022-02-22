@@ -29,7 +29,7 @@ button:not([disabled]):focus,
 }
 ```
 
-One great example is how it is done on the [Smashing Magazine](https://www.smashingmagazine.com/) site. At the time of writing the site has a very prominent dotted outline for almost all interactive elements. If you visit the site use the tab key to navigate the site and see the prominent blue outline.
+Two great example is how it is done on [Smashing Magazine](https://www.smashingmagazine.com/) site and on [Tatiana Mac's](https://www.tatianamac.com/) site. At the time of writing the sites have a very prominent outline for all interactive elements. If you visit the site use the tab key to navigate the site and see the outline.
 
 ## When default styles do not work out
 

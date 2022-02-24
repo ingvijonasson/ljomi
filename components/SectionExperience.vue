@@ -28,6 +28,13 @@ export default {
     return {
       works: [
         {
+          title: 'Die Mobiliar',
+          location: 'Bern',
+          role: 'UI developer, contractor',
+          start: '2020',
+          end: null,
+        },
+        {
           title: 'Ljomi GmbH',
           location: 'Bern',
           role: 'Founder, frontend developer and designer',

@@ -1,6 +1,6 @@
 ---
 title: Web monthly - March
-summary: Latest from this month
+summary: Summary of what I discovered and learned this month
 published: false
 createdAt: 2022-03-31T09:13:25.071Z
 ---

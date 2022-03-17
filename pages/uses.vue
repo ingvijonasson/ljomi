@@ -5,7 +5,10 @@
     </page-title>
     <section class="section section-large">
       <div class="container">
-        <p>All the things I currently choose to use. No affiliates.</p>
+        <p>
+          All the things I currently choose to use. Some affiliates but I will
+          garantie that I actually all of these in may daily life.
+        </p>
         <h2>Hardware</h2>
         <ul>
           <li>Macbook Pro 2019 16 inch</li>
@@ -44,7 +47,10 @@
           </li>
           <li>Dato - replace the macOs clock with multiple clocks timezones</li>
           <li>Figma - for designing</li>
-          <li>Harvest - for time tracking and simple invoicing</li>
+          <li>
+            (Harvest)[https://www.getharvest.com/invitation/3-131363?utm_source=rp]
+            - for time tracking and simple invoicing
+          </li>
           <li>Kap - for quick screen recording</li>
           <li>KeyCastr - for displaying keystrokes</li>
           <li>Maccy - for managing multiple cliphands</li>

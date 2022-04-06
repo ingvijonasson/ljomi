@@ -6,15 +6,19 @@ createdAt: 2022-04-06T11:46:36.275Z
 ---
 To be able to use SSH with multiple GIT accounts you set up the default GIT account and each alternative GIT account separately. This might be a client account or your private git account. It does not really matter but I suggest you use your private account as your default GIT.
 Creating keys and authenticate
-Start by creating a key on your machine
-ssh-keygen -t ed25519 -C "[comment]"
 
-### Copy your key to your clipboard
-pbcopy < ~/.ssh/YOUR_PUBLIC_KEY
+Start by creating a key and copy it's content:
+
+```
+ssh-keygen -t ed25519 -C "[comment]"
+pbcopy < ~/.ssh/YOURPUBLICKEY
+```
+
 and then create a key on Github or [Gitlab](https://docs.gitlab.com/ee/user/ssh.html) or where your repository is stored.
 
 
 ## Managing keys with ssh-agent
+
 ssh-add <YOURKEY>
 
 ### List all your keys to see if your new key was successfully added
@@ -33,10 +37,12 @@ HostName gitlab.com
 User git IdentityFile ~/.ssh/<YOURKEY>
 ```
 
-I like to use my git username here but you can do whatever feels right to you.
+I like to use my git username here but you can do whatever feels right to you. Now I am ready to clone a project with an SSH key of my choice.
 
 ## Clone your project with your custom config
+```
 git clone git@gitlab.com-<USERNAME>:someaccount/somerepo.git
+```
 
 Pay attention to where you update the string with your username you set in previous step.
 

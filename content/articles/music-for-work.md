@@ -2,7 +2,7 @@
 title: Music for work
 summary: The music I listen to when I need to focus
 createdAt: 2021-12-31
-published: true
+published: false
 ---
 My focus music contains instrumentals songs a mixture of both electronic and live music. Random music from different genres. I play the selection regularly and I hope you enjoy it as well. 
 

@@ -41,6 +41,14 @@ export default {
     return {
       projects: [
         {
+          title: 'Bauhaus',
+          tagline: 'E-commerce',
+          link: 'https://bauhaus.ch/',
+          cover: 'cover-bauhaus',
+          color: '#d8232a',
+          stack: ['scss', 'webpack'],
+        },
+        {
           title: 'Arkio',
           tagline: 'Collaborative design with virtual reality',
           link: 'https://arkio.is/',

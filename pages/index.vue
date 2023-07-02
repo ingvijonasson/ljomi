@@ -2,10 +2,10 @@
   <div>
     <page-title>
       <p class="text-h1">
-        Hi, I’m Ingvi Jonasson, independent user interface developer based in
-        Bern, Switzerland. I help companies and organisations build modern,
-        resilient and inclusive user interfaces with a strong focus on
-        <strong>user experience</strong> and <strong>accessibility</strong>.
+        Hi I’m Ingvi, an independent user interface developer based
+        in Switzerland. I assist teams to build modern
+        <strong>accessible</strong> user interfaces with focus on
+        <strong>user experience</strong>.
       </p>
     </page-title>
     <section-projects />

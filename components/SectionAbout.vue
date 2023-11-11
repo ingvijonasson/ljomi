@@ -3,46 +3,38 @@
     <div class="container">
       <h2 class="section__title">Little bit about me</h2>
       <p>
-        I’m a developer with over 10 years of experience. I have worked both as
-        a freelancer and in couple of agencies and have a reputation for having
-        a keen eye for details and for delivering products on time. In early
-        2020 I created a company, ljomi GmbH and I work since then as a
-        self-employed.
-      </p>
-
-      <h3>Work</h3>
-      <p>
-        I’m serious about markup. The structure that lies underneath every
-        websites. Well crafted markup can do a lot of good for any website and
-        is essential for responsive web design, findability in search engines
-        and for accessibility. I pay great attention to the details and I make
-        sure that everything is in its right place. Get a
+        I've been working as a developer for 15 years, both on my own and with
+        different agencies. I'm all about getting the details right and making
+        sure everything is in it's right place. I’m also serious about markup.
+        The structure that lies underneath every websites. Good markup is
+        crucial for search engines and making sites accessible to everyone.
+        Check out my
         <a
           data-analytics="Resume"
           href="/ingvi_jonasson-resume.pdf"
           class="link"
         >
-          copy of my resume
+          resume
         </a>
-        for more details.
+        for more on what I do.
       </p>
 
-      <h3>Free time</h3>
+      <h3>Leisure time</h3>
       <p>
-        In my spare time I enjoy tinkering with open source
-        <a class="link" href="https://github.com/ingvoo">projects</a> and to
-        teach teenagers how to develop and design for the web. When offline I do
-        yoga, run, make music or most likely spend time and playing games with
-        my family. I love
+        When I'm not online, I am usually spending time with my family. I enjoy
+        playing different instruments and sometimes create music using Ableton
+        Live. I also really value
         <a
           class="link"
           href="https://www.discogs.com/user/ingvoo/collection?header=1"
         >
-          my records
+          my record collection
         </a>
-        and having music in a physical form is very important to me. Playing
-        music as a dj used to be a big part of my life but has lately taken a
-        back seat as a past time hobby.
+        and having music in a physical form has always been important to me.
+        DJing used to be a big part of my life but has lately taken a back seat
+        as a hobby. Sometimes, I also teach teenagers the basics of web
+        development and design at
+        <a class="link" href="https://www.arcobern.com/">Arco Bern</a>.
       </p>
     </div>
   </section>

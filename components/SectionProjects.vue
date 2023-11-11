@@ -1,7 +1,7 @@
 <template>
   <section class="section section--large">
     <div class="container">
-      <h2 class="section__title">Recent Work</h2>
+      <h2 class="section__title">Selected Work</h2>
     </div>
     <div class="projects container container--large">
       <article v-for="(project, key) in projects" :key="key" class="project">
@@ -64,14 +64,22 @@ export default {
           color: '#ff7c7c',
           stack: ['scss', 'webpack'],
         },
-        {
-          title: 'Livindo',
-          tagline: 'Interior design',
-          link: 'https://livindo.ch',
-          cover: 'cover-livindo',
-          color: '#d7b06e',
-          stack: ['scss', 'webpack'],
-        },
+        // {
+        //   title: 'slowUp',
+        //   tagline: 'Sport events',
+        //   link: 'https://www.slowup.ch/',
+        //   // cover: 'cover-livindo',
+        //   color: '#f7a823',
+        //   stack: ['scss', 'webpack'],
+        // },
+        // {
+        //   title: 'netto',
+        //   tagline: 'Interior design',
+        //   link: 'https://netto.ch/',
+        //   // cover: 'cover-livindo',
+        //   color: '#c20018',
+        //   stack: ['scss', 'webpack'],
+        // },
       ],
     }
   },

@@ -50,10 +50,6 @@ export default {
           link: 'https://github.com/ingvoo',
         },
         {
-          title: 'twitter',
-          link: 'https://twitter.com/ingvoo',
-        },
-        {
           title: 'linkedin',
           link: 'https://ch.linkedin.com/in/ingvoo',
         },

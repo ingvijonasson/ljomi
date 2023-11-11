@@ -1,7 +1,7 @@
 <template>
   <section class="section section--large">
     <div class="container">
-      <h2 class="section__title">Work Experience</h2>
+      <h2 class="section__title">Timeline</h2>
       <article v-for="(work, key) in works" :key="key" class="work">
         <div class="work__info">
           <h3 class="work__title">
@@ -28,16 +28,23 @@ export default {
     return {
       works: [
         {
+          title: 'ZKB',
+          location: 'Zürich',
+          role: 'UI developer, contractor',
+          start: '2023',
+          end: null,
+        },
+        {
           title: 'Die Mobiliar',
           location: 'Bern',
           role: 'UI developer, contractor',
           start: '2020',
-          end: null,
+          end: '2022',
         },
         {
           title: 'Ljomi GmbH',
           location: 'Bern',
-          role: 'Founder, frontend developer and designer',
+          role: 'Founder',
           start: '2020',
           end: null,
         },
@@ -59,14 +66,14 @@ export default {
         },
         {
           title: 'Freelance',
-          location: 'Berlin and Reykjavík',
+          location: 'Berlin, Reykjavík',
           role: 'Frontend developer and designer',
-          start: '2010',
+          start: '2014',
           end: '2016',
         },
         {
           title: 'Skapalón',
-          location: 'Reykjavík',
+          location: 'Berlin, Reykjavík',
           role: 'Frontend developer',
           start: '2012',
           end: '2014',

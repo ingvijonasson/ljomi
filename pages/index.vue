@@ -2,9 +2,8 @@
   <div>
     <page-title>
       <p class="text-h1">
-        Hi I’m Ingvi, an independent user interface developer based
-        in Switzerland. I assist teams to build modern
-        <strong>accessible</strong> user interfaces with focus on
+        👋 I’m Ingvi an independent developer in Switzerland. I build modern and
+        <strong>accessible</strong> web with focus on
         <strong>user experience</strong>.
       </p>
     </page-title>

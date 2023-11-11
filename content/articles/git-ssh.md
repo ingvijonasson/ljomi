@@ -16,15 +16,16 @@ pbcopy < ~/.ssh/YOURPUBLICKEY
 
 and then create a key on Github or [Gitlab](https://docs.gitlab.com/ee/user/ssh.html) or where your repository is stored.
 
-
 ## Managing keys with ssh-agent
 
-ssh-add <YOURKEY>
+`ssh-add <YOURKEY>`
 
 ### List all your keys to see if your new key was successfully added
-ssh-add -l
+
+`ssh-add -l`
 
 ## Create a config file and add your keys
+
 ```
 touch ~/.ssh/config
 vim ~/.ssh/config
@@ -40,6 +41,7 @@ User git IdentityFile ~/.ssh/<YOURKEY>
 I like to use my git username here but you can do whatever feels right to you. Now I am ready to clone a project with an SSH key of my choice.
 
 ## Clone your project with your custom config
+
 ```
 git clone git@gitlab.com-<USERNAME>:someaccount/somerepo.git
 ```
@@ -54,6 +56,7 @@ git config --global -l
 ```
 
 If you already have git installed you should see something similar to this output:
+
 ```
 user.name=yourname
 user.email=youremail

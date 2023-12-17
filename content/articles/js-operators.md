@@ -24,6 +24,8 @@ biography.append('Lorem ipsum')
 
 // can also add multiple elements
 biography.append('lorem ipsum', someVariableWithText)
+
+//TODO: What about append vs. appendChild
 ```
 
 ## Converting a number to a string

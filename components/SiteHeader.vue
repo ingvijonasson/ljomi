@@ -5,7 +5,14 @@
         <nuxt-link to="/" aria-label="Navigate to frontpage">
           <ljomi-logo />
         </nuxt-link>
-        <nav></nav>
+        <nav>
+          <a
+            class="link"
+            data-analytics="Resume"
+            href="/ingvi_jonasson-resume.pdf"
+            >My Resume</a
+          >
+        </nav>
       </div>
     </div>
   </header>

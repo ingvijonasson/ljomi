@@ -46,7 +46,7 @@ export default {
           link: 'https://bauhaus.ch/',
           cover: 'cover-bauhaus',
           color: '#d8232a',
-          stack: ['scss', 'webpack'],
+          stack: ['scss', 'javascript', 'webpack'],
         },
         {
           title: 'Arkio',
@@ -62,15 +62,15 @@ export default {
           link: 'https://www.simpego.ch/',
           cover: 'cover-simpego',
           color: '#ff7c7c',
-          stack: ['scss', 'webpack'],
+          stack: ['scss', 'javascript', 'webpack'],
         },
         // {
         //   title: 'slowUp',
         //   tagline: 'Sport events',
         //   link: 'https://www.slowup.ch/',
-        //   // cover: 'cover-livindo',
+        //   cover: 'cover-livindo',
         //   color: '#f7a823',
-        //   stack: ['scss', 'webpack'],
+        //   stack: ['scss', 'javascript', 'greensock', 'webpack'],
         // },
         // {
         //   title: 'netto',
@@ -78,7 +78,7 @@ export default {
         //   link: 'https://netto.ch/',
         //   // cover: 'cover-livindo',
         //   color: '#c20018',
-        //   stack: ['scss', 'webpack'],
+        //   stack: ['javascript', 'scss', 'webpack'],
         // },
       ],
     }

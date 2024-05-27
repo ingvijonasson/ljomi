@@ -11,6 +11,7 @@
     <section-about />
     <section-projects />
     <section-recommendations :recommendations="recommendations" />
+    <section-timeline />
   </div>
 </template>
 
@@ -19,6 +20,7 @@ import PageTitle from '@/components/PageTitle.vue'
 import SectionRecommendations from '@/components/SectionRecommendations.vue'
 import SectionProjects from '~/components/SectionProjects.vue'
 import SectionAbout from '~/components/SectionAbout.vue'
+import SectionTimeline from '~/components/SectionTimeline.vue'
 
 export default {
   components: {
@@ -26,6 +28,7 @@ export default {
     SectionRecommendations,
     SectionProjects,
     SectionAbout,
+    SectionTimeline,
   },
   async asyncData({ $content, params }) {
     const recommendations = await $content(

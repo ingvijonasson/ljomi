@@ -26,7 +26,7 @@
         <a class="link link--white" href="https://nuxtjs.org/">Nuxt</a> and
         hosted on
         <a class="link link--white" href="https://www.netlify.com/">Netlify</a>.
-        The source code is hosted on
+        Source code is hosted on
         <a class="link link--white" href="https://github.com/ingvoo/ljomi"
           >Github</a
         >.

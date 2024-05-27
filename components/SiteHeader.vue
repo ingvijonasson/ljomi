@@ -2,10 +2,12 @@
   <header>
     <div class="container container--large">
       <div class="site-header__layout">
-        <nuxt-link to="/" aria-label="Navigate to frontpage">
-          <ljomi-logo />
-        </nuxt-link>
-        <nav></nav>
+        <ljomi-logo />
+        <nav>
+          <a class="link" data-analytics="Resume" href="/cv_ingvi-jonasson.pdf">
+            My Resume
+          </a>
+        </nav>
       </div>
     </div>
   </header>

@@ -8,6 +8,7 @@
         <div class="project__info">
           <h3 class="project__title">{{ project.title }}</h3>
           <small class="project__tagline">{{ project.tagline }}</small>
+          <p v-if="project.description">{{ project.description }}</p>
           <ul v-if="project.stack" class="project__stack-list">
             <li
               v-for="(icon, index) in project.stack"
@@ -46,7 +47,9 @@ export default {
           link: 'https://bauhaus.ch/',
           cover: 'cover-bauhaus',
           color: '#d8232a',
-          stack: ['scss', 'webpack'],
+          stack: ['scss', 'javascript', 'webpack'],
+          description:
+            'With the team at Bauhaus my role was to create markup, styles and functionality for various UI components. We created a simple styleguide for tracking every UI element and more importantly for everyone in the team being able to test the components',
         },
         {
           title: 'Arkio',
@@ -55,6 +58,8 @@ export default {
           cover: 'cover-arkio',
           color: '#4cc1b8',
           stack: ['nuxt', 'tailwind'],
+          description:
+            'With Arkio I collaborated with Hilmar and UX team to create a modern and responsive web application including some micro interactions which make the site plesant to use.',
         },
         {
           title: 'Simpego',
@@ -62,15 +67,18 @@ export default {
           link: 'https://www.simpego.ch/',
           cover: 'cover-simpego',
           color: '#ff7c7c',
-          stack: ['scss', 'webpack'],
+          stack: ['scss', 'javascript', 'webpack'],
+          description:
+            'With the team at fastforward my role was to  assist with the frontend. With provided design assests I created the UI and presented the components as an easy to use styleguide. During the process the team could test the patterns in the styleguide and implemented the UI seamlesly into the CMS.',
         },
         // {
         //   title: 'slowUp',
         //   tagline: 'Sport events',
         //   link: 'https://www.slowup.ch/',
-        //   // cover: 'cover-livindo',
+        //   cover: 'cover-livindo',
         //   color: '#f7a823',
-        //   stack: ['scss', 'webpack'],
+        //   stack: ['scss', 'javascript', 'greensock', 'webpack'],
+        //   description: '',
         // },
         // {
         //   title: 'netto',
@@ -78,7 +86,8 @@ export default {
         //   link: 'https://netto.ch/',
         //   // cover: 'cover-livindo',
         //   color: '#c20018',
-        //   stack: ['scss', 'webpack'],
+        //   stack: ['javascript', 'scss', 'webpack'],
+        //   description: '',
         // },
       ],
     }
@@ -87,15 +96,9 @@ export default {
 </script>
 
 <style scoped>
-@media only screen and (min-width: 800px) {
-  .projects {
-    margin-top: 2rem;
-  }
-}
-
 .project {
   display: grid;
-  gap: 2rem;
+  gap: calc(1rem + 3vw);
   padding-top: 3rem;
   padding-bottom: 3rem;
 }
@@ -105,7 +108,6 @@ export default {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 2rem;
 }
 
 .project__title {
@@ -140,14 +142,13 @@ export default {
   transition: transform 400ms;
 }
 
-@media only screen and (min-width: 800px) {
+@media only screen and (min-width: 1000px) {
   .project {
     grid-template-columns: repeat(2, 1fr);
   }
 
   .project__info {
     grid-row-start: 1;
-    padding: 2rem;
   }
 
   .project:nth-child(odd) .project__info {

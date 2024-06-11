@@ -136,6 +136,6 @@ export default {
 .site-footer__colophon {
   margin-top: calc(3rem + 5vw);
   padding-top: 1rem;
-  border-top: 2px solid var(--color-black);
+  border-top: 2px solid var(--color-base-text);
 }
 </style>

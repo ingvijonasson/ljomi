@@ -8,7 +8,7 @@
 
     position: relative;
     display: inline-block;
-    color: var(--color-black);
+    color: var(--color-base-text);
     text-decoration: none;
     z-index: 0;
   }

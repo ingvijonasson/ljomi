@@ -18,8 +18,8 @@ body {
   font-family: 'Jost', sans-serif;
   font-weight: var(--font-regular);
   line-height: 1.6;
-  color: var(--color-black);
-  background-color: var(--base-background);
+  color: var(--color-base-text);
+  background-color: var(--color-base-background);
 }
 
 h1,
@@ -69,7 +69,7 @@ h6 {
 }
 
 a {
-  color: var(--color-black);
+  color: var(--color-base-text);
 }
 
 p {
@@ -94,7 +94,7 @@ p code {
 }
 
 ::selection {
-  color: var(--color-black);
+  color: var(--color-base-text);
   background: var(--color-base-300);
 }
 

@@ -1,5 +1,5 @@
 <template>
-  <div class="site-master">
+  <div class="site-master" data-theme="dark">
     <div class="site-content">
       <site-header />
       <main class="site-main">

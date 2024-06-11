@@ -20,7 +20,6 @@
   --color-pink-700: hsl(345, 83%, 41%);
   --color-pink-800: hsl(343, 80%, 35%);
   --color-pink-900: hsl(342, 75%, 30%);
-  --base-background: var(--color-white);
 
   /* Font weights */
   --font-regular: 400;
@@ -34,4 +33,14 @@
   --text-xl: 1.6rem;
   --text-2xl: 2rem;
   --text-3xl: 2.5rem;
+}
+
+[data-theme="light"] {
+  --color-base-background: var(--color-white);
+  --color-base-text: var(--color-black);
+}
+
+[data-theme="dark"] {
+  --color-base-background: var(--color-black);
+  --color-base-text: var(--color-white);
 }

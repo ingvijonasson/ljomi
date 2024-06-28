@@ -4,7 +4,12 @@
       <h2 class="section__title">Selected Work</h2>
     </div>
     <div class="projects container container--large">
-      <article v-for="(project, key) in projects" :key="key" class="project">
+      <a
+        v-for="(project, key) in projects"
+        :key="key"
+        :href="project.link"
+        class="project"
+      >
         <div class="project__info">
           <h3 class="project__title">{{ project.title }}</h3>
           <small class="project__tagline">{{ project.tagline }}</small>
@@ -23,15 +28,15 @@
             </li>
           </ul>
         </div>
-        <a :href="project.link" class="project__cover-wrapper">
+        <div class="project__cover-wrapper">
           <img
             v-if="project.cover"
             class="project__cover"
             :src="require(`../assets/images/${project.cover}.png`)"
             alt=""
           />
-        </a>
-      </article>
+        </div>
+      </a>
     </div>
   </section>
 </template>
@@ -96,11 +101,18 @@ export default {
 </script>
 
 <style scoped>
+.projects {
+  margin-top: 2rem;
+}
+
 .project {
   display: grid;
   gap: calc(1rem + 3vw);
-  padding-top: 3rem;
-  padding-bottom: 3rem;
+  text-decoration: none;
+}
+
+.project + .project {
+  margin-top: calc(5vw + 3rem);
 }
 
 .project__info {
@@ -139,6 +151,8 @@ export default {
 
 .project__cover {
   border-radius: 0.25rem;
+  height: 100%;
+  object-fit: cover;
   transition: transform 400ms;
 }
 
@@ -174,11 +188,13 @@ export default {
     transform: translate(0, 100%);
   }
 
-  .project__cover-wrapper:hover::after {
+  .project:hover .project__cover-wrapper::after,
+  .project:focus .project__cover-wrapper::after {
     transform: none;
   }
 
-  .project__cover-wrapper:hover .project__cover {
+  .project:hover .project__cover,
+  .project:focus .project__cover {
     transform: scale(1.08) translateX(2%);
   }
 

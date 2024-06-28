@@ -13,8 +13,8 @@
       <article v-for="project in projects" :key="project.id" class="project">
         <h3 class="project__title">
           <a :href="project.html_url">
-            {{ project.name
-            }}<svg
+            {{ project.name }}
+            <svg
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 24 24"
               class="project__title-icon"
